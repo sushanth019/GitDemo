@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="114" started-at="2020-05-23T18:09:02Z" finished-at="2020-05-23T18:09:02Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="114" started-at="2020-05-23T18:09:02Z" finished-at="2020-05-23T18:09:02Z">
+      <class name="Testing.Myself.square">
+        <test-method status="PASS" signature="height()[pri:0, instance:Testing.Myself.square@5c7fa833]" name="height" duration-ms="33" started-at="2020-05-23T18:09:02Z" finished-at="2020-05-23T18:09:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- height -->
+        <test-method status="PASS" signature="name()[pri:0, instance:Testing.Myself.square@5c7fa833]" name="name" duration-ms="4" started-at="2020-05-23T18:09:02Z" finished-at="2020-05-23T18:09:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- name -->
+      </class> <!-- Testing.Myself.square -->
+      <class name="Testing.Myself.Triangle">
+        <test-method status="PASS" signature="date()[pri:0, instance:Testing.Myself.Triangle@4678c730]" name="date" duration-ms="1" started-at="2020-05-23T18:09:02Z" finished-at="2020-05-23T18:09:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- date -->
+      </class> <!-- Testing.Myself.Triangle -->
+      <class name="Testing.Myself.cube">
+        <test-method status="PASS" signature="squareofCube()[pri:0, instance:Testing.Myself.cube@724af044]" name="squareofCube" duration-ms="3" started-at="2020-05-23T18:09:02Z" finished-at="2020-05-23T18:09:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- squareofCube -->
+      </class> <!-- Testing.Myself.cube -->
+      <class name="Testing.Myself.prism">
+        <test-method status="PASS" signature="square()[pri:0, instance:Testing.Myself.prism@39aeed2f]" name="square" duration-ms="3" started-at="2020-05-23T18:09:02Z" finished-at="2020-05-23T18:09:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- square -->
+        <test-method status="PASS" signature="squarePrism()[pri:0, instance:Testing.Myself.prism@39aeed2f]" name="squarePrism" duration-ms="6" started-at="2020-05-23T18:09:02Z" finished-at="2020-05-23T18:09:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- squarePrism -->
+      </class> <!-- Testing.Myself.prism -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

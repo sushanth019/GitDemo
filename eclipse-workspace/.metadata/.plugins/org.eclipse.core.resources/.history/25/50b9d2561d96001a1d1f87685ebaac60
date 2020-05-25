@@ -1,0 +1,16 @@
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class MenuItems {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String url = "https://smartbytes.v-logics.com/ocart/index.php?route=common/home";
+		System.setProperty("webdriver.chrome.driver",
+				"C:\\Users\\sushanth\\Desktop\\Sushanth\\chromedriver_win32\\chromedriver.exe");
+		WebDriver driver = new ChromeDriver();
+		driver.get(url);
+
+	}
+
+}

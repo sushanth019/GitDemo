@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="3" failures="1" name="TestSuite" time="333.304" errors="0" skipped="2">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jre1.8.0_251\bin"/>
+    <property name="java.vm.version" value="25.251-b08"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\sushanth\eclipse-workspace\firstTestin"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\sushanth\eclipse-workspace\firstTestin"/>
+    <property name="java.runtime.version" value="1.8.0_251-b08"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jre1.8.0_251\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\sushanth\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="C:\Users\sushanth\eclipse-workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf7325723602359379914.tmp"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jre1.8.0_251\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jre1.8.0_251/bin/server;C:/Program Files/Java/jre1.8.0_251/bin;C:/Program Files/Java/jre1.8.0_251/lib/amd64;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Users\sushanth\AppData\Local\Microsoft\WindowsApps;;C:\Users\sushanth\Downloads\eclipse-java-oxygen-3a-win32-x86_64\eclipse;;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\sushanth"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="sushanth"/>
+    <property name="java.class.path" value="C:\Users\sushanth\Downloads\eclipse-java-oxygen-3a-win32-x86_64\eclipse\plugins\org.eclipse.m2e.maven.runtime_1.8.3.20180227-2135\jars\plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jre1.8.0_251"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B test"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_251"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jre1.8.0_251\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jre1.8.0_251\lib\resources.jar;C:\Program Files\Java\jre1.8.0_251\lib\rt.jar;C:\Program Files\Java\jre1.8.0_251\lib\sunrsasign.jar;C:\Program Files\Java\jre1.8.0_251\lib\jsse.jar;C:\Program Files\Java\jre1.8.0_251\lib\jce.jar;C:\Program Files\Java\jre1.8.0_251\lib\charsets.jar;C:\Program Files\Java\jre1.8.0_251\lib\jfr.jar;C:\Program Files\Java\jre1.8.0_251\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Users\sushanth\eclipse-workspace\firstTestin\EMBEDDED"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="selenium.firstTestin.openLoginAndAccountDetailsTest" name="beforeClass" time="110.989">
+    <failure message="session not created
+from disconnected: received Inspector.detached event
+  (Session info: chrome=81.0.4044.138)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-GHB7O0N&apos;, ip: &apos;192.168.0.109&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_251&apos;
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x006D5E93+2449043]
+	Ordinal0 [0x00608281+1606273]
+	Ordinal0 [0x004FF889+522377]
+	Ordinal0 [0x004F8099+491673]
+	Ordinal0 [0x004F7CAC+490668]
+	Ordinal0 [0x004F75A6+488870]
+	Ordinal0 [0x004F6BAC+486316]
+	Ordinal0 [0x004F6DE5+486885]
+	Ordinal0 [0x004F6825+485413]
+	Ordinal0 [0x004FB6A5+505509]
+	Ordinal0 [0x004F67E2+485346]
+	Ordinal0 [0x004F7249+488009]
+	Ordinal0 [0x004F6BAC+486316]
+	Ordinal0 [0x004F6DE5+486885]
+	Ordinal0 [0x004F6825+485413]
+	Ordinal0 [0x004FACD7+502999]
+	Ordinal0 [0x004F67E2+485346]
+	Ordinal0 [0x004F7249+488009]
+	Ordinal0 [0x004F6BAC+486316]
+	Ordinal0 [0x004F6DE5+486885]
+	Ordinal0 [0x004F6825+485413]
+	Ordinal0 [0x004F30CC+471244]
+	Ordinal0 [0x004F67E2+485346]
+	Ordinal0 [0x004F6737+485175]
+	Ordinal0 [0x00500520+525600]
+	Ordinal0 [0x004ACBB9+183225]
+	Ordinal0 [0x004ABF2D+180013]
+	Ordinal0 [0x004A9E5B+171611]
+	Ordinal0 [0x00491DD8+73176]
+	Ordinal0 [0x00492E50+77392]
+	Ordinal0 [0x00492DE9+77289]
+	Ordinal0 [0x0061D7F7+1693687]
+	GetHandleVerifier [0x00774576+522742]
+	GetHandleVerifier [0x007742B4+522036]
+	GetHandleVerifier [0x00789587+608775]
+	GetHandleVerifier [0x00774DE6+524902]
+	Ordinal0 [0x00615BDC+1661916]
+	Ordinal0 [0x0061F15B+1700187]
+	Ordinal0 [0x0061F2C3+1700547]
+	Ordinal0 [0x00635135+1790261]
+	BaseThreadInitThunk [0x75F76359+25]
+	RtlGetAppContainerNamedObjectPath [0x77E17C24+228]
+	RtlGetAppContainerNamedObjectPath [0x77E17BF4+180]
+" type="org.openqa.selenium.SessionNotCreatedException">org.openqa.selenium.SessionNotCreatedException: session not created
+from disconnected: received Inspector.detached event
+  (Session info: chrome=81.0.4044.138)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-GHB7O0N&apos;, ip: &apos;192.168.0.109&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_251&apos;
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x006D5E93+2449043]
+	Ordinal0 [0x00608281+1606273]
+	Ordinal0 [0x004FF889+522377]
+	Ordinal0 [0x004F8099+491673]
+	Ordinal0 [0x004F7CAC+490668]
+	Ordinal0 [0x004F75A6+488870]
+	Ordinal0 [0x004F6BAC+486316]
+	Ordinal0 [0x004F6DE5+486885]
+	Ordinal0 [0x004F6825+485413]
+	Ordinal0 [0x004FB6A5+505509]
+	Ordinal0 [0x004F67E2+485346]
+	Ordinal0 [0x004F7249+488009]
+	Ordinal0 [0x004F6BAC+486316]
+	Ordinal0 [0x004F6DE5+486885]
+	Ordinal0 [0x004F6825+485413]
+	Ordinal0 [0x004FACD7+502999]
+	Ordinal0 [0x004F67E2+485346]
+	Ordinal0 [0x004F7249+488009]
+	Ordinal0 [0x004F6BAC+486316]
+	Ordinal0 [0x004F6DE5+486885]
+	Ordinal0 [0x004F6825+485413]
+	Ordinal0 [0x004F30CC+471244]
+	Ordinal0 [0x004F67E2+485346]
+	Ordinal0 [0x004F6737+485175]
+	Ordinal0 [0x00500520+525600]
+	Ordinal0 [0x004ACBB9+183225]
+	Ordinal0 [0x004ABF2D+180013]
+	Ordinal0 [0x004A9E5B+171611]
+	Ordinal0 [0x00491DD8+73176]
+	Ordinal0 [0x00492E50+77392]
+	Ordinal0 [0x00492DE9+77289]
+	Ordinal0 [0x0061D7F7+1693687]
+	GetHandleVerifier [0x00774576+522742]
+	GetHandleVerifier [0x007742B4+522036]
+	GetHandleVerifier [0x00789587+608775]
+	GetHandleVerifier [0x00774DE6+524902]
+	Ordinal0 [0x00615BDC+1661916]
+	Ordinal0 [0x0061F15B+1700187]
+	Ordinal0 [0x0061F2C3+1700547]
+	Ordinal0 [0x00635135+1790261]
+	BaseThreadInitThunk [0x75F76359+25]
+	RtlGetAppContainerNamedObjectPath [0x77E17C24+228]
+	RtlGetAppContainerNamedObjectPath [0x77E17BF4+180]
+
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at java.util.stream.ReferencePipeline$3$1.accept(Unknown Source)
+	at java.util.Spliterators$ArraySpliterator.tryAdvance(Unknown Source)
+	at java.util.stream.ReferencePipeline.forEachWithCancel(Unknown Source)
+	at java.util.stream.AbstractPipeline.copyIntoWithCancel(Unknown Source)
+	at java.util.stream.AbstractPipeline.copyInto(Unknown Source)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(Unknown Source)
+	at java.util.stream.FindOps$FindOp.evaluateSequential(Unknown Source)
+	at java.util.stream.AbstractPipeline.evaluate(Unknown Source)
+	at java.util.stream.ReferencePipeline.findFirst(Unknown Source)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:181)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:168)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:123)
+	at selenium.firstTestin.openLoginAndAccountDetailsTest.beforeClass(openLoginAndAccountDetailsTest.java:28)
+</failure>
+    <system-out>Configuring TestNG with: org.apache.maven.surefire.testng.conf.TestNG652Configurator@6f75e721
+</system-out>
+    <system-err>Starting ChromeDriver 81.0.4044.138 (8c6c7ba89cc9453625af54f11fd83179e23450fa-refs/branch-heads/4044@{#999}) on port 35693
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+May 19, 2020 8:10:07 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[1589899209.951][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589899210.057][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589899210.165][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589899210.267][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589899210.369][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589899210.472][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589899210.574][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589899210.676][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589899210.781][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589899210.885][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589899210.994][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589899211.098][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589899211.201][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589899211.305][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589899211.409][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589899211.512][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589899211.618][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589899211.722][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589899211.842][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589899211.959][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589899212.089][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589899213.633][SEVERE]: Timed out receiving message from renderer: 0.100
+Starting ChromeDriver 81.0.4044.138 (8c6c7ba89cc9453625af54f11fd83179e23450fa-refs/branch-heads/4044@{#999}) on port 4698
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+May 19, 2020 8:10:30 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[1589899232.504][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589899232.680][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589899232.782][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589899232.885][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589899232.987][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589899233.089][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589899233.192][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589899233.314][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589899233.420][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589899233.548][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589899233.655][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589899233.765][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589899233.885][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589899233.988][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589899234.095][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589899234.197][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589899234.299][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589899234.416][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589899234.520][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589899234.632][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589899234.741][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589899234.846][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589899234.949][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589899235.052][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589899235.154][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589899242.374][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589899242.543][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589899242.666][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589899242.769][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589899242.879][SEVERE]: Timed out receiving message from renderer: 0.100
+Starting ChromeDriver 81.0.4044.138 (8c6c7ba89cc9453625af54f11fd83179e23450fa-refs/branch-heads/4044@{#999}) on port 24840
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+May 19, 2020 8:11:03 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+[1589899265.302][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589899265.991][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589899266.117][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589899266.314][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589899266.420][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589899266.568][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589899266.738][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589899266.871][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589899267.045][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589899270.620][SEVERE]: Timed out receiving message from renderer: 0.100
+[1589899271.480][SEVERE]: Timed out receiving message from renderer: 0.100
+Starting ChromeDriver 81.0.4044.138 (8c6c7ba89cc9453625af54f11fd83179e23450fa-refs/branch-heads/4044@{#999}) on port 37801
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+</system-err>
+  </testcase>
+  <testcase classname="selenium.firstTestin.openLoginAndAccountDetailsTest" name="f" time="111.147">
+    <skipped/>
+  </testcase>
+  <testcase classname="selenium.firstTestin.openLoginAndAccountDetailsTest" name="afterClass" time="111.168">
+    <skipped/>
+  </testcase>
+</testsuite>

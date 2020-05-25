@@ -1,0 +1,89 @@
+package selenium.project;
+
+import java.util.concurrent.TimeUnit;
+
+import javax.sql.rowset.WebRowSet;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.annotations.AfterClass;
+import org.testng.annotations.BeforeClass;
+import org.testng.annotations.Test;
+
+public class projectTest {
+	WebDriver driver = null;
+	@Test
+	public void testProjectsItem() {
+		System.setProperty("webdriver.chrome.driver",
+				"C:\\Users\\sushanth\\Desktop\\Sushanth\\chromedriver_win32\\chromedriver.exe");
+		driver = new ChromeDriver();
+		driver.get("https://www.rambabu.ca/#portfolio");
+		Actions action = new Actions(driver);
+		
+		driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
+		WebElement automation = driver.findElement(By.cssSelector("#portfolio > div > div.row.no-gutters.carousel.inner-controls.slick-initialized.slick-slider > div > div > div:nth-child(4) > figure > div.image > a > img:nth-child(2)"));
+		action.moveToElement(automation).build().perform();
+		action.moveToElement(automation).click().build().perform();
+		driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
+		
+		
+		driver.findElement(By.cssSelector("#ajax-modal > button")).click();
+		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+		WebElement deliveryProcess = driver.findElement(By.cssSelector("#portfolio > div > div.row.no-gutters.carousel.inner-controls.slick-initialized.slick-slider > div > div > div:nth-child(5) > figure > div.image > a > img:nth-child(2)"));
+		action.moveToElement(deliveryProcess).build().perform();
+		action.moveToElement(deliveryProcess).click().build().perform();
+		delay();
+		driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
+		driver.findElement(By.xpath("//*[@id=\"ajax-modal\"]/button")).click();
+		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+		WebElement infrastructreProject = driver.findElement(By.cssSelector("#portfolio > div > div.row.no-gutters.carousel.inner-controls.slick-initialized.slick-slider > div > div > div:nth-child(6) > figure > div.image > a > img:nth-child(2)"));
+		action.moveToElement(infrastructreProject).build().perform();
+		action.moveToElement(infrastructreProject).click().build().perform();
+		delay();
+		driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
+		driver.findElement(By.xpath("//*[@id=\"ajax-modal\"]/button")).click();
+		delay();
+		WebElement sideBtn=driver.findElement(By.xpath("//*[@id=\"portfolio\"]/div/div[2]/button[2]"));
+		action.moveToElement(sideBtn).build().perform();
+		action.moveToElement(sideBtn).click().build().perform();
+		WebElement deploymentProject = driver.findElement(By.cssSelector("#portfolio > div > div.row.no-gutters.carousel.inner-controls.slick-initialized.slick-slider > div > div > div:nth-child(7) > figure > div.content.text-center"));
+		action.moveToElement(deploymentProject).build().perform();
+		action.moveToElement(deploymentProject).click().build().perform();
+		driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
+		driver.findElement(By.xpath("//*[@id=\"ajax-modal\"]/button")).click();
+		delay();
+		WebElement sideClick = driver.findElement(By.xpath("//*[@id=\"portfolio\"]/div/div[2]/button[2]"));
+		action.moveToElement(sideClick).build().perform();
+		action.moveToElement(sideClick).click().build().perform();
+		WebElement fileTransferProject = driver.findElement(By.cssSelector("#portfolio > div > div.row.no-gutters.carousel.inner-controls.slick-initialized.slick-slider > div > div > div:nth-child(8) > figure > div.image > a > img:nth-child(2)"));
+		action.moveToElement(fileTransferProject).build().perform();
+		action.moveToElement(fileTransferProject).click().build().perform();
+		driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
+		driver.findElement(By.xpath("//*[@id=\"ajax-modal\"]/button")).click();
+		delay();
+		WebElement leftClick = driver.findElement(By.xpath("//*[@id=\"portfolio\"]/div/div[2]/button[1]"));
+		action.moveToElement(leftClick).build().perform();
+		action.moveToElement(leftClick).click().build().perform();
+		delay();
+		driver.quit();
+		
+		
+	}
+	
+	public static void delay() {
+		try {
+			Thread.sleep(5000);
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	}
+
+
+
+}

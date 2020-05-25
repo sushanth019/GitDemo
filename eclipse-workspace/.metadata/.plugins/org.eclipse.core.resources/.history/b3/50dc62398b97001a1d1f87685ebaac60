@@ -1,0 +1,9 @@
+import java.lang.System.Logger;
+import java.util.logging.LogManager;
+
+
+public class testlog4j {
+
+	//create instance of log 4j
+	private final Logger logger = .getLogger(testlog4j.class);
+}

@@ -1,0 +1,30 @@
+package selenium.project;
+
+import java.util.concurrent.TimeUnit;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.Test;
+
+public class calender {
+	WebDriver driver = null;
+	@Test
+	public void calenderTest()
+	{
+		System.setProperty("webdriver.chrome.driver",
+				"C:\\Users\\sushanth\\Desktop\\Sushanth\\chromedriver_win32\\chromedriver.exe");
+		driver = new ChromeDriver();
+		driver.get("https://my-schedule.timetrade.com/app/td-2771192/workflows/hxg4p/schedule/availability?wfsid=16a5bdb5-baba97f6-16a5be82-baba97f6-00000002-41nhg4j9gf4ldqbgfa75dcuh3r4mibor&view=full&fs=1");
+		driver.findElement(By.xpath("//*[@id=\"tz\"]")).click();
+		driver.manage().timeouts().implicitlyWait(2, TimeUnit.SECONDS);
+		driver.findElement(By.xpath("//*[@id=\"tz\"]/option[4]")).click();
+		
+		driver.manage().timeouts().implicitlyWait(2, TimeUnit.SECONDS);
+		driver.quit();
+		
+		
+		
+	}
+
+}

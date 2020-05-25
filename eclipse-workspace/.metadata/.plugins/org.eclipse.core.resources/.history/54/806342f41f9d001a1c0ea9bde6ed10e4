@@ -1,0 +1,12 @@
+package Testing.Myself;
+
+public class execution {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		cube s = new cube();
+		s.squareofCube();
+
+	}
+
+}

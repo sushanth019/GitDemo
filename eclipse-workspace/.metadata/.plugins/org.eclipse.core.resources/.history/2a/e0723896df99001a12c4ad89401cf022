@@ -1,0 +1,53 @@
+package selenium.firstTestin;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.interactions.Actions;
+import org.testng.annotations.AfterTest;
+import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Test;
+
+public class ServicesTest {
+	WebDriver driver = null;
+	@BeforeTest
+	public void initalization() {
+		System.setProperty("webdriver.chrome.driver",
+				"C:\\Users\\sushanth\\Desktop\\Sushanth\\chromedriver_win32\\chromedriver.exe");
+		driver = new ChromeDriver();
+		driver.get("https://www.rambabu.ca/#portfolio");
+		
+
+	}
+	@Test(priority = 1)
+	public void testViewWebsite()
+	{
+		Actions action = new Actions(driver);
+		WebElement viewWebsite = driver.findElement(By.xpath("//*[@id=\"services\"]/div/div/div[2]/div/div/div[1]/a"));
+		action.moveToElement(viewWebsite).build().perform();
+		action.moveToElement(viewWebsite).click().build().perform();
+		delay();
+		WebElement scheduleACall = driver.findElement(By.xpath("//*[@id=\"services\"]/div/div/div[2]/div/div/div[2]/a"));
+		action.moveToElement(scheduleACall).build().perform();
+		action.moveToElement(scheduleACall).click().build().perform();
+		delay();
+		WebElement bookTraining = driver.findElement(By.xpath("//*[@id=\"services\"]/div/div/div[2]/div/div/div[2]/a"));
+		action.moveToElement(bookTraining).build().perform();
+		action.moveToElement(bookTraining).click().build().perform();
+		delay();
+	}
+	@AfterTest
+	public void quit() {
+		driver.quit();
+	}
+
+	public static void delay() {
+		try {
+			Thread.sleep(5000);
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	}
+}

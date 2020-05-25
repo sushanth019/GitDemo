@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="selenium.firstTestin.completeTesting">
+        <methods>
+          <include name="fileTransfer"/>
+          <include name="infrastructreProject"/>
+          <include name="deploymentProject"/>
+          <include name="quit"/>
+          <include name="testMenuItems"/>
+          <include name="sideButtons"/>
+          <include name="testContactItem"/>
+          <include name="testProjectsItem"/>
+          <include name="testViewWebsite"/>
+          <include name="testCustomerIcons"/>
+          <include name="testHobiies"/>
+          <include name="rightSideClick"/>
+          <include name="testdeliveryProcessProject"/>
+          <include name="initalization"/>
+          <include name="leftSideClick"/>
+          <include name="testHomeItem"/>
+        </methods>
+      </class> <!-- selenium.firstTestin.completeTesting -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

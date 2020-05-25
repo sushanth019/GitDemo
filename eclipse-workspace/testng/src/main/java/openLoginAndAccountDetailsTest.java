@@ -1,0 +1,72 @@
+
+
+import org.testng.annotations.Test;
+import org.testng.annotations.BeforeClass;
+
+import java.sql.Driver;
+
+import org.apache.log4j.LogManager;
+import org.apache.log4j.Logger;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.FindBy;
+import org.testng.Assert;
+import org.testng.annotations.AfterClass;
+
+public class openLoginAndAccountDetailsTest  {
+
+//	private static final Logger logger = LogManager.getLogger(openLoginAndAccountDetailsTest.class);
+	
+	
+	@BeforeClass
+	public void beforeClass() {
+	//	logger.info("Opening the Website");
+		System.setProperty("webdriver.chrome.driver",
+				"C:\\Users\\sushanth\\Desktop\\Sushanth\\chromedriver_win32\\chromedriver.exe");
+		driver = new ChromeDriver();
+		driver.get("https://smartbytes.v-logics.com/ocart/");
+	}
+
+	WebDriver driver = null;
+
+	@Test
+	public void f() {
+		String actualTitle = "";
+		String actualName = "";
+		
+	//	logger.info("We are on the Homepage");
+		driver.findElement(By.xpath("//*[@id=\"welcome\"]/a[1]")).click();
+		delay();
+		driver.findElement(By.name("email")).sendKeys("sushanthb0191@gmail.com");
+		driver.findElement(By.name("password")).sendKeys("12345678");
+		driver.findElement(By.xpath("//*[@id=\"content\"]/div[2]/div[2]/form/div/input[3]")).click();
+		
+	//	logger.info("Successfully Logged in");
+		actualTitle = driver.getTitle();
+		Assert.assertEquals(actualTitle, "My Account");
+
+		driver.findElement(By.xpath("//*[@id=\"content\"]/div[2]/ul/li[1]/a")).click();
+		actualName = driver.findElement(By.name("firstname")).getAttribute("value");
+		Assert.assertEquals(actualName, "shikar");
+	//	logger.info("Checked The value");
+	}
+
+	public static void delay() {
+
+		try {
+			Thread.sleep(3000);
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	}
+
+	@AfterClass
+	public void afterClass() {
+		driver.quit();
+		//logger.info("Browser is now closed");
+	}
+
+}

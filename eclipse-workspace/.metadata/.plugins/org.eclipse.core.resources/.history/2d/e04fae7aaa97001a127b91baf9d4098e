@@ -1,0 +1,18 @@
+package selenium.firstTestin;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class CompleteTest {
+
+	// Open the website
+	System.setProperty("webdriver.chrome.driver",
+			"C:\\Users\\sushanth\\Desktop\\Sushanth\\chromedriver_win32\\chromedriver.exe");
+	WebDriver driver = new ChromeDriver();
+	driver.get("https://smartbytes.v-logics.com/ocart/");
+	
+	//logg the details
+	//click on login buton
+	//enter the details and login
+	//Now click on the profile and check the details 
+}

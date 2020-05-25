@@ -1,0 +1,41 @@
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.ui.Select;
+
+public class Table {
+
+	public static void main(String[] args) {
+		String url = "https://smartbytes.v-logics.com/ocart/table.html";
+
+		// Open the Website
+		System.setProperty("webdriver.chrome.driver",
+				"C:\\Users\\sushanth\\Desktop\\Sushanth\\chromedriver_win32\\chromedriver.exe");
+		WebDriver driver = new ChromeDriver();
+		driver.get(url);
+
+		// Testing the table by retrieving the values in the table
+		driver.findElement(By.xpath("//*[@id=\"example\"]/tbody/tr[1]"));
+
+		Select rowElements =  new Select(driver.findElement(By.name("example_length")));
+		rowElements.selectByValue("25");
+		WebElement columnElement = null;
+		for (int row = 1; row <= 22; row++) {
+			for (int column = 1; column <= 6; column++) {
+				columnElement = driver
+						.findElement(By.xpath("//*[@id=\"example\"]/tbody/tr[" + row + "]/td[" + column + "]"));
+				System.out.println(columnElement.getText()+"\t");
+			}
+			System.out.println("\t");
+		}
+		System.out.println("");
+
+		
+		//Search people who live in london
+		driver.findElement(By.cssSelector("#example_filter > label > input[type=search]")).sendKeys("London");
+		// separte people by age
+		driver.findElement(By.xpath("//*[@id=\"example\"]/thead/tr/th[4]")).click();
+	}
+
+}

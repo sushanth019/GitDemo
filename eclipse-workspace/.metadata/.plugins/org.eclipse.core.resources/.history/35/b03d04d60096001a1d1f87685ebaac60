@@ -1,0 +1,36 @@
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+/**
+ * 
+ */
+
+/**
+ * @author sushanth
+ *
+ */
+public class RegisterAccountTest {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		String url = "https://smartbytes.v-logics.com/ocart/index.php?route=account/register";
+		// TODO Auto-generated method stub
+
+		// Open the Website
+		System.setProperty("webdriver.chrome.driver",
+				"C:\\Users\\sushanth\\Desktop\\Sushanth\\chromedriver_win32\\chromedriver.exe");
+		WebDriver driver = new ChromeDriver();
+		driver.get(url);
+
+		// Test the fields in the register my account details
+		driver.findElement(By.name("firstname")).sendKeys("Sushanth");
+		driver.findElement(By.name("lastname")).sendKeys("Bichkunda");
+		driver.findElement(By.name("email")).sendKeys("sushanth019@gmail.com");
+		driver.findElement(By.name("telephone")).sendKeys("2262197100");
+
+	}
+
+}

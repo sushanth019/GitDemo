@@ -1,0 +1,58 @@
+package selenium.project;
+
+import java.util.concurrent.TimeUnit;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.Select;
+import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.annotations.AfterClass;
+import org.testng.annotations.BeforeClass;
+import org.testng.annotations.Test;
+
+public class calender {
+	WebDriver driver = null;
+	@Test
+	public void calender()
+	{
+		driver.findElement(By.xpath("//*[@id=\"navigation\"]/ul/li[5]/a")).click();
+		delay();
+		
+		
+		WebDriverWait wait = new WebDriverWait(driver, 10);
+		wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("tz")));
+		WebElement directory = driver.findElement(By.name("tz"));
+		Select timeZone = new Select(directory);
+		timeZone.selectByValue("Pacific/Honolulu");
+		delay();
+	}
+	
+	@BeforeClass
+	public void beforeClass() {
+		System.setProperty("webdriver.chrome.driver",
+				"C:\\Users\\sushanth\\Desktop\\Sushanth\\chromedriver_win32\\chromedriver.exe");
+		driver = new ChromeDriver();
+		driver.get("https://www.rambabu.ca/");
+
+	}
+
+	public static void delay() {
+		try {
+			Thread.sleep(5000);
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	}
+
+	@AfterClass
+	public void afterClass() {
+		
+		driver.quit();
+	}
+
+}

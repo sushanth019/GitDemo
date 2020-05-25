@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Command line suite]">
+  <test thread-count="5" verbose="0" name="Command line test(failed)">
+    <classes>
+      <class name="selenium.project.ServicesTest">
+        <methods>
+          <include name="testViewWebsite"/>
+          <include name="quit"/>
+          <include name="initalization"/>
+        </methods>
+      </class> <!-- selenium.project.ServicesTest -->
+      <class name="selenium.project.SkillsTest">
+        <methods>
+          <include name="initalization"/>
+          <include name="sideButtons"/>
+          <include name="quit"/>
+        </methods>
+      </class> <!-- selenium.project.SkillsTest -->
+      <class name="selenium.project.projectTest">
+        <methods>
+          <include name="initalization"/>
+          <include name="quit"/>
+          <include name="testProjectsItem"/>
+        </methods>
+      </class> <!-- selenium.project.projectTest -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [Command line suite] -->

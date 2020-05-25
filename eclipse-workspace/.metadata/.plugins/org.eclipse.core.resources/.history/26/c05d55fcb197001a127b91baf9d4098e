@@ -1,0 +1,74 @@
+package selenium.firstTestin;
+
+import org.testng.annotations.Test;
+import org.testng.annotations.BeforeClass;
+
+import java.sql.Driver;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.FindBy;
+import org.testng.Assert;
+import org.testng.annotations.AfterClass;
+
+public class openLoginAndAccountDetailsTest {
+	
+	 
+	//enter login details
+	//Check the title page 
+	//click on profile 
+	//Check the personal information to see if they are correct
+	
+	
+	
+	
+	//Click on the login button
+	
+	//Open the website
+	
+		WebDriver driver = null;
+	
+  @Test
+  public void f() {
+	  System.setProperty("webdriver.chrome.driver",
+				"C:\\Users\\sushanth\\Desktop\\Sushanth\\chromedriver_win32\\chromedriver.exe");
+	  driver.get("https://smartbytes.v-logics.com/ocart/");
+	  driver.findElement(By.xpath("//*[@id=\"welcome\"]/a[1]")).click();
+	  delay();
+	  driver.findElement(By.name("email")).sendKeys("12345");
+	  driver.findElement(By.name("password")).sendKeys("12345678");
+	  driver.findElement(By.xpath("//*[@id=\"content\"]/div[2]/div[2]/form/div/input[3]")).click();
+	  String actualTitle = driver.getTitle();
+	  Assert.assertEquals("My Account", actualTitle);
+	  
+	  driver.findElement(By.xpath("//*[@id=\"content\"]/div[2]/ul/li[1]/a")).click();
+	  String actualName = driver.findElement(By.name("firstname")).getText();
+	  Assert.assertEquals("shikar", actualName);
+	  
+	  driver.quit();
+	  
+	  
+	  
+  }
+  
+  public static void delay()
+	{
+		
+		try {
+			Thread.sleep(3000);
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	}
+  @BeforeClass
+  public void beforeClass() {
+  }
+
+  @AfterClass
+  public void afterClass() {
+  }
+
+}

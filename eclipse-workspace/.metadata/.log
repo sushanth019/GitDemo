@@ -1,0 +1,1499 @@
+!SESSION 2020-05-22 21:18:26.257 -----------------------------------------------
+eclipse.buildId=4.7.3.M20180330-0640
+java.version=1.8.0_251
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+This is a continuation of log file C:\Users\sushanth\eclipse-workspace\.metadata\.bak_2.log
+Created Time: 2020-05-23 23:17:30.712
+
+!ENTRY org.testng.eclipse 1 0 2020-05-23 23:17:30.712
+!MESSAGE [TestNGLaunchShortcut] Examining Java element:<default> [in C:\Users\sushanth\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar]
+
+!ENTRY org.testng.eclipse 1 0 2020-05-23 23:17:30.713
+!MESSAGE [TestNGLaunchShortcut] Examining Java element:org.apache.log4j.or.jms [in C:\Users\sushanth\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar]
+  MessageRenderer.class (not open)
+
+!ENTRY org.testng.eclipse 1 0 2020-05-23 23:17:30.714
+!MESSAGE [TestNGLaunchShortcut] Examining Java element:org.apache.log4j.rewrite [in C:\Users\sushanth\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar]
+  MapRewritePolicy.class (not open)
+  PropertyRewritePolicy.class (not open)
+  ReflectionRewritePolicy.class (not open)
+  RewriteAppender.class (not open)
+  RewritePolicy.class (not open)
+
+!ENTRY org.testng.eclipse 1 0 2020-05-23 23:17:30.714
+!MESSAGE [TestNGLaunchShortcut] Examining Java element:org [in C:\Users\sushanth\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar]
+
+!ENTRY org.testng.eclipse 1 0 2020-05-23 23:17:30.714
+!MESSAGE [TestNGLaunchShortcut] Examining Java element:org.apache.log4j.jdbc [in C:\Users\sushanth\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar]
+  JDBCAppender.class (not open)
+
+!ENTRY org.testng.eclipse 1 0 2020-05-23 23:17:30.715
+!MESSAGE [TestNGLaunchShortcut] Examining Java element:org.apache.log4j.net [in C:\Users\sushanth\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar]
+  DefaultEvaluator.class (not open)
+  JMSAppender.class (not open)
+  JMSSink.class (not open)
+  SMTPAppender$1.class (not open)
+  SMTPAppender.class (not open)
+  SimpleSocketServer.class (not open)
+  SocketAppender$Connector.class (not open)
+  SocketAppender.class (not open)
+  SocketHubAppender$ServerMonitor.class (not open)
+  SocketHubAppender.class (not open)
+  SocketNode.class (not open)
+  SocketServer.class (not open)
+  SyslogAppender.class (not open)
+  TelnetAppender$SocketHandler.class (not open)
+  TelnetAppender.class (not open)
+  ZeroConfSupport.class (not open)
+
+!ENTRY org.testng.eclipse 1 0 2020-05-23 23:17:30.715
+!MESSAGE [TestNGLaunchShortcut] Examining Java element:org.apache.log4j.jmx [in C:\Users\sushanth\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar]
+  AbstractDynamicMBean.class (not open)
+  Agent.class (not open)
+  AppenderDynamicMBean.class (not open)
+  HierarchyDynamicMBean.class (not open)
+  LayoutDynamicMBean.class (not open)
+  LoggerDynamicMBean.class (not open)
+  MethodUnion.class (not open)
+
+!ENTRY org.testng.eclipse 1 0 2020-05-23 23:17:30.716
+!MESSAGE [TestNGLaunchShortcut] Examining Java element:org.apache.log4j [in C:\Users\sushanth\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar]
+  Appender.class (not open)
+  AppenderSkeleton.class (not open)
+  AsyncAppender$DiscardSummary.class (not open)
+  AsyncAppender$Dispatcher.class (not open)
+  AsyncAppender.class (not open)
+  BasicConfigurator.class (not open)
+  Category.class (not open)
+  CategoryKey.class (not open)
+  ConsoleAppender$SystemErrStream.class (not open)
+  ConsoleAppender$SystemOutStream.class (not open)
+  ConsoleAppender.class (not open)
+  DailyRollingFileAppender.class (not open)
+  DefaultCategoryFactory.class (not open)
+  DefaultThrowableRenderer.class (not open)
+  Dispatcher.class (not open)
+  EnhancedPatternLayout.class (not open)
+  EnhancedThrowableRenderer.class (not open)
+  FileAppender.class (not open)
+  HTMLLayout.class (not open)
+  Hierarchy.class (not open)
+  Layout.class (not open)
+  Level.class (not open)
+  LogMF.class (not open)
+  LogManager.class (not open)
+  LogSF.class (not open)
+  LogXF.class (not open)
+  Logger.class (not open)
+  MDC.class (not open)
+  NDC$DiagnosticContext.class (not open)
+  NDC.class (not open)
+  NameValue.class (not open)
+  PatternLayout.class (not open)
+  Priority.class (not open)
+  PropertyConfigurator.class (not open)
+  PropertyWatchdog.class (not open)
+  ProvisionNode.class (not open)
+  RollingCalendar.class (not open)
+  RollingFileAppender.class (not open)
+  SimpleLayout.class (not open)
+  SortedKeyEnumeration.class (not open)
+  TTCCLayout.class (not open)
+  WriterAppender.class (not open)
+
+!ENTRY org.testng.eclipse 1 0 2020-05-23 23:17:30.716
+!MESSAGE [TestNGLaunchShortcut] Examining Java element:org.apache.log4j.lf5.viewer.configure [in C:\Users\sushanth\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar]
+  ConfigurationManager.class (not open)
+  MRUFileManager.class (not open)
+
+!ENTRY org.testng.eclipse 1 0 2020-05-23 23:17:30.716
+!MESSAGE [TestNGLaunchShortcut] Examining Java element:org.apache.log4j.config [in C:\Users\sushanth\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar]
+  PropertyGetter$PropertyCallback.class (not open)
+  PropertyGetter.class (not open)
+  PropertyPrinter.class (not open)
+  PropertySetter.class (not open)
+  PropertySetterException.class (not open)
+
+!ENTRY org.testng.eclipse 1 0 2020-05-23 23:17:30.717
+!MESSAGE [TestNGLaunchShortcut] Examining Java element:org.apache.log4j.lf5.viewer.images [in C:\Users\sushanth\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar]
+
+!ENTRY org.testng.eclipse 1 0 2020-05-23 23:17:30.717
+!MESSAGE [TestNGLaunchShortcut] Examining Java element:org.apache.log4j.or [in C:\Users\sushanth\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar]
+  DefaultRenderer.class (not open)
+  ObjectRenderer.class (not open)
+  RendererMap.class (not open)
+  ThreadGroupRenderer.class (not open)
+
+!ENTRY org.testng.eclipse 1 0 2020-05-23 23:17:30.718
+!MESSAGE [TestNGLaunchShortcut] Examining Java element:org.apache [in C:\Users\sushanth\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar]
+
+!ENTRY org.testng.eclipse 1 0 2020-05-23 23:17:30.718
+!MESSAGE [TestNGLaunchShortcut] Examining Java element:org.apache.log4j.xml [in C:\Users\sushanth\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar]
+  DOMConfigurator$1.class (not open)
+  DOMConfigurator$2.class (not open)
+  DOMConfigurator$3.class (not open)
+  DOMConfigurator$4.class (not open)
+  DOMConfigurator$5.class (not open)
+  DOMConfigurator$ParseAction.class (not open)
+  DOMConfigurator.class (not open)
+  Log4jEntityResolver.class (not open)
+  SAXErrorHandler.class (not open)
+  UnrecognizedElementHandler.class (not open)
+  XMLLayout.class (not open)
+  XMLWatchdog.class (not open)
+
+!ENTRY org.testng.eclipse 1 0 2020-05-23 23:17:30.719
+!MESSAGE [TestNGLaunchShortcut] Examining Java element:org.apache.log4j.helpers [in C:\Users\sushanth\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar]
+  AbsoluteTimeDateFormat.class (not open)
+  AppenderAttachableImpl.class (not open)
+  BoundedFIFO.class (not open)
+  CountingQuietWriter.class (not open)
+  CyclicBuffer.class (not open)
+  DateLayout.class (not open)
+  DateTimeDateFormat.class (not open)
+  FileWatchdog.class (not open)
+  FormattingInfo.class (not open)
+  ISO8601DateFormat.class (not open)
+  Loader.class (not open)
+  LogLog.class (not open)
+  MDCKeySetExtractor.class (not open)
+  NullEnumeration.class (not open)
+  OnlyOnceErrorHandler.class (not open)
+  OptionConverter.class (not open)
+  PatternConverter.class (not open)
+  PatternParser$BasicPatternConverter.class (not open)
+  PatternParser$CategoryPatternConverter.class (not open)
+  PatternParser$ClassNamePatternConverter.class (not open)
+  PatternParser$DatePatternConverter.class (not open)
+  PatternParser$LiteralPatternConverter.class (not open)
+  PatternParser$LocationPatternConverter.class (not open)
+  PatternParser$MDCPatternConverter.class (not open)
+  PatternParser$NamedPatternConverter.class (not open)
+  PatternParser.class (not open)
+  QuietWriter.class (not open)
+  RelativeTimeDateFormat.class (not open)
+  SyslogQuietWriter.class (not open)
+  SyslogWriter.class (not open)
+  ThreadLocalMap.class (not open)
+  Transform.class (not open)
+  UtilLoggingLevel.class (not open)
+
+!ENTRY org.testng.eclipse 1 0 2020-05-23 23:17:30.720
+!MESSAGE [TestNGLaunchShortcut] Examining Java element:org.apache.log4j.or.sax [in C:\Users\sushanth\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar]
+  AttributesRenderer.class (not open)
+
+!ENTRY org.testng.eclipse 1 0 2020-05-23 23:17:30.720
+!MESSAGE [TestNGLaunchShortcut] Examining Java element:org.apache.log4j.spi [in C:\Users\sushanth\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar]
+  AppenderAttachable.class (not open)
+  Configurator.class (not open)
+  DefaultRepositorySelector.class (not open)
+  ErrorCode.class (not open)
+  ErrorHandler.class (not open)
+  Filter.class (not open)
+  HierarchyEventListener.class (not open)
+  LocationInfo.class (not open)
+  LoggerFactory.class (not open)
+  LoggerRepository.class (not open)
+  LoggingEvent.class (not open)
+  NOPLogger.class (not open)
+  NOPLoggerRepository.class (not open)
+  NullWriter.class (not open)
+  OptionHandler.class (not open)
+  RendererSupport.class (not open)
+  RepositorySelector.class (not open)
+  RootCategory.class (not open)
+  RootLogger.class (not open)
+  ThrowableInformation.class (not open)
+  ThrowableRenderer.class (not open)
+  ThrowableRendererSupport.class (not open)
+  TriggeringEventEvaluator.class (not open)
+  VectorWriter.class (not open)
+
+!ENTRY org.testng.eclipse 1 0 2020-05-23 23:17:30.721
+!MESSAGE [TestNGLaunchShortcut] Examining Java element:org.apache.log4j.lf5.viewer.categoryexplorer [in C:\Users\sushanth\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar]
+  CategoryAbstractCellEditor.class (not open)
+  CategoryElement.class (not open)
+  CategoryExplorerLogRecordFilter.class (not open)
+  CategoryExplorerModel$1.class (not open)
+  CategoryExplorerModel.class (not open)
+  CategoryExplorerTree$1.class (not open)
+  CategoryExplorerTree.class (not open)
+  CategoryImmediateEditor.class (not open)
+  CategoryNode.class (not open)
+  CategoryNodeEditor$1.class (not open)
+  CategoryNodeEditor$2.class (not open)
+  CategoryNodeEditor$3.class (not open)
+  CategoryNodeEditor$4.class (not open)
+  CategoryNodeEditor$5.class (not open)
+  CategoryNodeEditor$6.class (not open)
+  CategoryNodeEditor$7.class (not open)
+  CategoryNodeEditor$8.class (not open)
+  CategoryNodeEditor.class (not open)
+  CategoryNodeEditorRenderer.class (not open)
+  CategoryNodeRenderer.class (not open)
+  CategoryPath.class (not open)
+  TreeModelAdapter.class (not open)
+
+!ENTRY org.testng.eclipse 1 0 2020-05-23 23:17:30.721
+!MESSAGE [TestNGLaunchShortcut] Examining Java element:org.apache.log4j.chainsaw [in C:\Users\sushanth\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar]
+  ControlPanel$1.class (not open)
+  ControlPanel$2.class (not open)
+  ControlPanel$3.class (not open)
+  ControlPanel$4.class (not open)
+  ControlPanel$5.class (not open)
+  ControlPanel$6.class (not open)
+  ControlPanel$7.class (not open)
+  ControlPanel.class (not open)
+  DetailPanel.class (not open)
+  EventDetails.class (not open)
+  ExitAction.class (not open)
+  LoadXMLAction.class (not open)
+  LoggingReceiver$Slurper.class (not open)
+  LoggingReceiver.class (not open)
+  Main$1.class (not open)
+  Main.class (not open)
+  MyTableModel$1.class (not open)
+  MyTableModel$Processor.class (not open)
+  MyTableModel.class (not open)
+  XMLFileHandler.class (not open)
+
+!ENTRY org.testng.eclipse 1 0 2020-05-23 23:17:30.722
+!MESSAGE [TestNGLaunchShortcut] Examining Java element:org.apache.log4j.lf5.util [in C:\Users\sushanth\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar]
+  AdapterLogRecord.class (not open)
+  DateFormatManager.class (not open)
+  LogFileParser$1.class (not open)
+  LogFileParser.class (not open)
+  LogMonitorAdapter.class (not open)
+  Resource.class (not open)
+  ResourceUtils.class (not open)
+  StreamUtils.class (not open)
+
+!ENTRY org.testng.eclipse 1 0 2020-05-23 23:17:30.722
+!MESSAGE [TestNGLaunchShortcut] Examining Java element:org.apache.log4j.lf5.config [in C:\Users\sushanth\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar]
+
+!ENTRY org.testng.eclipse 1 0 2020-05-23 23:17:30.723
+!MESSAGE [TestNGLaunchShortcut] Examining Java element:org.apache.log4j.lf5.viewer [in C:\Users\sushanth\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar]
+  FilteredLogTableModel.class (not open)
+  LF5SwingUtils$1.class (not open)
+  LF5SwingUtils.class (not open)
+  LogBrokerMonitor$1.class (not open)
+  LogBrokerMonitor$10.class (not open)
+  LogBrokerMonitor$11.class (not open)
+  LogBrokerMonitor$12.class (not open)
+  LogBrokerMonitor$13.class (not open)
+  LogBrokerMonitor$14.class (not open)
+  LogBrokerMonitor$15.class (not open)
+  LogBrokerMonitor$16.class (not open)
+  LogBrokerMonitor$17.class (not open)
+  LogBrokerMonitor$18.class (not open)
+  LogBrokerMonitor$19.class (not open)
+  LogBrokerMonitor$2.class (not open)
+  LogBrokerMonitor$20.class (not open)
+  LogBrokerMonitor$21.class (not open)
+  LogBrokerMonitor$22.class (not open)
+  LogBrokerMonitor$23.class (not open)
+  LogBrokerMonitor$24.class (not open)
+  LogBrokerMonitor$25.class (not open)
+  LogBrokerMonitor$26.class (not open)
+  LogBrokerMonitor$27.class (not open)
+  LogBrokerMonitor$28.class (not open)
+  LogBrokerMonitor$29.class (not open)
+  LogBrokerMonitor$3.class (not open)
+  LogBrokerMonitor$30.class (not open)
+  LogBrokerMonitor$31.class (not open)
+  LogBrokerMonitor$32.class (not open)
+  LogBrokerMonitor$4.class (not open)
+  LogBrokerMonitor$5.class (not open)
+  LogBrokerMonitor$6.class (not open)
+  LogBrokerMonitor$7.class (not open)
+  LogBrokerMonitor$8.class (not open)
+  LogBrokerMonitor$9.class (not open)
+  LogBrokerMonitor$LogBrokerMonitorWindowAdaptor.class (not open)
+  LogBrokerMonitor.class (not open)
+  LogFactor5Dialog.class (not open)
+  LogFactor5ErrorDialog$1.class (not open)
+  LogFactor5ErrorDialog.class (not open)
+  LogFactor5InputDialog$1.class (not open)
+  LogFactor5InputDialog$2.class (not open)
+  LogFactor5InputDialog$3.class (not open)
+  LogFactor5InputDialog.class (not open)
+  LogFactor5LoadingDialog.class (not open)
+  LogTable$LogTableListSelectionListener.class (not open)
+  LogTable.class (not open)
+  LogTableColumn.class (not open)
+  LogTableColumnFormatException.class (not open)
+  LogTableModel.class (not open)
+  LogTableRowRenderer.class (not open)
+  TrackingAdjustmentListener.class (not open)
+
+!ENTRY org.testng.eclipse 1 0 2020-05-23 23:17:30.724
+!MESSAGE [TestNGLaunchShortcut] Examining Java element:org.apache.log4j.nt [in C:\Users\sushanth\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar]
+  NTEventLogAppender.class (not open)
+
+!ENTRY org.testng.eclipse 1 0 2020-05-23 23:17:30.724
+!MESSAGE [TestNGLaunchShortcut] Examining Java element:org.apache.log4j.lf5 [in C:\Users\sushanth\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar]
+  AppenderFinalizer.class (not open)
+  DefaultLF5Configurator.class (not open)
+  LF5Appender.class (not open)
+  Log4JLogRecord.class (not open)
+  LogLevel.class (not open)
+  LogLevelFormatException.class (not open)
+  LogRecord.class (not open)
+  LogRecordFilter.class (not open)
+  PassingLogRecordFilter.class (not open)
+  StartLogFactor5.class (not open)
+
+!ENTRY org.testng.eclipse 1 0 2020-05-23 23:17:30.725
+!MESSAGE [TestNGLaunchShortcut] Examining Java element:org.apache.log4j.pattern [in C:\Users\sushanth\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar]
+  BridgePatternConverter.class (not open)
+  BridgePatternParser.class (not open)
+  CachedDateFormat.class (not open)
+  ClassNamePatternConverter.class (not open)
+  DatePatternConverter$DefaultZoneDateFormat.class (not open)
+  DatePatternConverter.class (not open)
+  FileDatePatternConverter.class (not open)
+  FileLocationPatternConverter.class (not open)
+  FormattingInfo.class (not open)
+  FullLocationPatternConverter.class (not open)
+  IntegerPatternConverter.class (not open)
+  LevelPatternConverter.class (not open)
+  LineLocationPatternConverter.class (not open)
+  LineSeparatorPatternConverter.class (not open)
+  LiteralPatternConverter.class (not open)
+  LogEvent.class (not open)
+  LoggerPatternConverter.class (not open)
+  LoggingEventPatternConverter.class (not open)
+  MessagePatternConverter.class (not open)
+  MethodLocationPatternConverter.class (not open)
+  NDCPatternConverter.class (not open)
+  NameAbbreviator$DropElementAbbreviator.class (not open)
+  NameAbbreviator$MaxElementAbbreviator.class (not open)
+  NameAbbreviator$NOPAbbreviator.class (not open)
+  NameAbbreviator$PatternAbbreviator.class (not open)
+  NameAbbreviator$PatternAbbreviatorFragment.class (not open)
+  NameAbbreviator.class (not open)
+  NamePatternConverter.class (not open)
+  PatternConverter.class (not open)
+  PatternParser$ReadOnlyMap.class (not open)
+  PatternParser.class (not open)
+  PropertiesPatternConverter.class (not open)
+  RelativeTimePatternConverter$CachedTimestamp.class (not open)
+  RelativeTimePatternConverter.class (not open)
+  SequenceNumberPatternConverter.class (not open)
+  ThreadPatternConverter.class (not open)
+  ThrowableInformationPatternConverter.class (not open)
+
+!ENTRY org.testng.eclipse 1 0 2020-05-23 23:17:30.726
+!MESSAGE [TestNGLaunchShortcut] Examining Java element:org.apache.log4j.varia [in C:\Users\sushanth\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar]
+  DenyAllFilter.class (not open)
+  ExternallyRolledFileAppender.class (not open)
+  FallbackErrorHandler.class (not open)
+  HUP.class (not open)
+  HUPNode.class (not open)
+  LevelMatchFilter.class (not open)
+  LevelRangeFilter.class (not open)
+  NullAppender.class (not open)
+  ReloadingPropertyConfigurator.class (not open)
+  Roller.class (not open)
+  StringMatchFilter.class (not open)
+
+!ENTRY org.testng.eclipse 1 0 2020-05-23 23:17:31.207
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\sushanth\Downloads\eclipse-java-oxygen-3a-win32-x86_64\eclipse\configuration\org.eclipse.osgi\514\0\.cp\lib\testng-remote.jar C:\Program Files\Java\jre1.8.0_251\lib\resources.jar C:\Program Files\Java\jre1.8.0_251\lib\rt.jar C:\Program Files\Java\jre1.8.0_251\lib\jsse.jar C:\Program Files\Java\jre1.8.0_251\lib\jce.jar C:\Program Files\Java\jre1.8.0_251\lib\charsets.jar C:\Program Files\Java\jre1.8.0_251\lib\jfr.jar C:\Program Files\Java\jre1.8.0_251\lib\ext\access-bridge-64.jar C:\Program Files\Java\jre1.8.0_251\lib\ext\cldrdata.jar C:\Program Files\Java\jre1.8.0_251\lib\ext\dnsns.jar C:\Program Files\Java\jre1.8.0_251\lib\ext\jaccess.jar C:\Program Files\Java\jre1.8.0_251\lib\ext\jfxrt.jar C:\Program Files\Java\jre1.8.0_251\lib\ext\localedata.jar C:\Program Files\Java\jre1.8.0_251\lib\ext\nashorn.jar C:\Program Files\Java\jre1.8.0_251\lib\ext\sunec.jar C:\Program Files\Java\jre1.8.0_251\lib\ext\sunjce_provider.jar C:\Program Files\Java\jre1.8.0_251\lib\ext\sunmscapi.jar C:\Program Files\Java\jre1.8.0_251\lib\ext\sunpkcs11.jar C:\Program Files\Java\jre1.8.0_251\lib\ext\zipfs.jar C:\Users\sushanth\eclipse-workspace\Myself\target\test-classes C:\Users\sushanth\eclipse-workspace\Myself\target\classes C:\Users\sushanth\.m2\repository\org\testng\testng\7.1.0\testng-7.1.0.jar C:\Users\sushanth\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar C:\Users\sushanth\.m2\repository\com\google\inject\guice\4.1.0\guice-4.1.0-no_aop.jar C:\Users\sushanth\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar C:\Users\sushanth\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar C:\Users\sushanth\.m2\repository\org\yaml\snakeyaml\1.21\snakeyaml-1.21.jar C:\Users\sushanth\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar C:\Users\sushanth\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar C:\Users\sushanth\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar C:\Users\sushanth\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar C:\Users\sushanth\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar C:\Users\sushanth\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar C:\Users\sushanth\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar C:\Users\sushanth\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar C:\Users\sushanth\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar C:\Users\sushanth\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar C:\Users\sushanth\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar C:\Users\sushanth\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar C:\Users\sushanth\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar C:\Users\sushanth\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar C:\Users\sushanth\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar C:\Users\sushanth\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar C:\Users\sushanth\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar C:\Users\sushanth\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar C:\Users\sushanth\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar C:\Users\sushanth\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar C:\Users\sushanth\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 52127 -protocol json -d C:\Users\sushanth\eclipse-workspace\Myself\test-output C:\Users\sushanth\AppData\Local\Temp\testng-eclipse-291168798\testng-customsuite.xml
+java -ea -classpath C:\Users\sushanth\Downloads\eclipse-java-oxygen-3a-win32-x86_64\eclipse\configuration\org.eclipse.osgi\514\0\.cp\lib\testng-remote.jar:C:\Program Files\Java\jre1.8.0_251\lib\resources.jar:C:\Program Files\Java\jre1.8.0_251\lib\rt.jar:C:\Program Files\Java\jre1.8.0_251\lib\jsse.jar:C:\Program Files\Java\jre1.8.0_251\lib\jce.jar:C:\Program Files\Java\jre1.8.0_251\lib\charsets.jar:C:\Program Files\Java\jre1.8.0_251\lib\jfr.jar:C:\Program Files\Java\jre1.8.0_251\lib\ext\access-bridge-64.jar:C:\Program Files\Java\jre1.8.0_251\lib\ext\cldrdata.jar:C:\Program Files\Java\jre1.8.0_251\lib\ext\dnsns.jar:C:\Program Files\Java\jre1.8.0_251\lib\ext\jaccess.jar:C:\Program Files\Java\jre1.8.0_251\lib\ext\jfxrt.jar:C:\Program Files\Java\jre1.8.0_251\lib\ext\localedata.jar:C:\Program Files\Java\jre1.8.0_251\lib\ext\nashorn.jar:C:\Program Files\Java\jre1.8.0_251\lib\ext\sunec.jar:C:\Program Files\Java\jre1.8.0_251\lib\ext\sunjce_provider.jar:C:\Program Files\Java\jre1.8.0_251\lib\ext\sunmscapi.jar:C:\Program Files\Java\jre1.8.0_251\lib\ext\sunpkcs11.jar:C:\Program Files\Java\jre1.8.0_251\lib\ext\zipfs.jar:C:\Users\sushanth\eclipse-workspace\Myself\target\test-classes:C:\Users\sushanth\eclipse-workspace\Myself\target\classes:C:\Users\sushanth\.m2\repository\org\testng\testng\7.1.0\testng-7.1.0.jar:C:\Users\sushanth\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar:C:\Users\sushanth\.m2\repository\com\google\inject\guice\4.1.0\guice-4.1.0-no_aop.jar:C:\Users\sushanth\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar:C:\Users\sushanth\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar:C:\Users\sushanth\.m2\repository\org\yaml\snakeyaml\1.21\snakeyaml-1.21.jar:C:\Users\sushanth\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar:C:\Users\sushanth\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar:C:\Users\sushanth\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar:C:\Users\sushanth\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar:C:\Users\sushanth\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar:C:\Users\sushanth\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar:C:\Users\sushanth\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar:C:\Users\sushanth\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar:C:\Users\sushanth\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar:C:\Users\sushanth\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar:C:\Users\sushanth\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar:C:\Users\sushanth\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar:C:\Users\sushanth\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar:C:\Users\sushanth\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar:C:\Users\sushanth\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar:C:\Users\sushanth\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar:C:\Users\sushanth\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar:C:\Users\sushanth\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar:C:\Users\sushanth\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar:C:\Users\sushanth\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar:C:\Users\sushanth\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar org.testng.remote.RemoteTestNG -serport 52127 -protocol json -d C:\Users\sushanth\eclipse-workspace\Myself\test-output C:\Users\sushanth\AppData\Local\Temp\testng-eclipse-291168798\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2020-05-23 23:20:10.002
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\sushanth\Downloads\eclipse-java-oxygen-3a-win32-x86_64\eclipse\configuration\org.eclipse.osgi\514\0\.cp\lib\testng-remote.jar C:\Program Files\Java\jre1.8.0_251\lib\resources.jar C:\Program Files\Java\jre1.8.0_251\lib\rt.jar C:\Program Files\Java\jre1.8.0_251\lib\jsse.jar C:\Program Files\Java\jre1.8.0_251\lib\jce.jar C:\Program Files\Java\jre1.8.0_251\lib\charsets.jar C:\Program Files\Java\jre1.8.0_251\lib\jfr.jar C:\Program Files\Java\jre1.8.0_251\lib\ext\access-bridge-64.jar C:\Program Files\Java\jre1.8.0_251\lib\ext\cldrdata.jar C:\Program Files\Java\jre1.8.0_251\lib\ext\dnsns.jar C:\Program Files\Java\jre1.8.0_251\lib\ext\jaccess.jar C:\Program Files\Java\jre1.8.0_251\lib\ext\jfxrt.jar C:\Program Files\Java\jre1.8.0_251\lib\ext\localedata.jar C:\Program Files\Java\jre1.8.0_251\lib\ext\nashorn.jar C:\Program Files\Java\jre1.8.0_251\lib\ext\sunec.jar C:\Program Files\Java\jre1.8.0_251\lib\ext\sunjce_provider.jar C:\Program Files\Java\jre1.8.0_251\lib\ext\sunmscapi.jar C:\Program Files\Java\jre1.8.0_251\lib\ext\sunpkcs11.jar C:\Program Files\Java\jre1.8.0_251\lib\ext\zipfs.jar C:\Users\sushanth\eclipse-workspace\Myself\target\test-classes C:\Users\sushanth\eclipse-workspace\Myself\target\classes C:\Users\sushanth\.m2\repository\org\testng\testng\7.1.0\testng-7.1.0.jar C:\Users\sushanth\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar C:\Users\sushanth\.m2\repository\com\google\inject\guice\4.1.0\guice-4.1.0-no_aop.jar C:\Users\sushanth\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar C:\Users\sushanth\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar C:\Users\sushanth\.m2\repository\org\yaml\snakeyaml\1.21\snakeyaml-1.21.jar C:\Users\sushanth\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar C:\Users\sushanth\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar C:\Users\sushanth\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar C:\Users\sushanth\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar C:\Users\sushanth\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar C:\Users\sushanth\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar C:\Users\sushanth\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar C:\Users\sushanth\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar C:\Users\sushanth\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar C:\Users\sushanth\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar C:\Users\sushanth\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar C:\Users\sushanth\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar C:\Users\sushanth\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar C:\Users\sushanth\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar C:\Users\sushanth\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar C:\Users\sushanth\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar C:\Users\sushanth\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar C:\Users\sushanth\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar C:\Users\sushanth\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar C:\Users\sushanth\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar C:\Users\sushanth\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 52138 -protocol json -d C:\Users\sushanth\eclipse-workspace\Myself\test-output C:\Users\sushanth\AppData\Local\Temp\testng-eclipse--1011592623\testng-customsuite.xml
+java -ea -classpath C:\Users\sushanth\Downloads\eclipse-java-oxygen-3a-win32-x86_64\eclipse\configuration\org.eclipse.osgi\514\0\.cp\lib\testng-remote.jar:C:\Program Files\Java\jre1.8.0_251\lib\resources.jar:C:\Program Files\Java\jre1.8.0_251\lib\rt.jar:C:\Program Files\Java\jre1.8.0_251\lib\jsse.jar:C:\Program Files\Java\jre1.8.0_251\lib\jce.jar:C:\Program Files\Java\jre1.8.0_251\lib\charsets.jar:C:\Program Files\Java\jre1.8.0_251\lib\jfr.jar:C:\Program Files\Java\jre1.8.0_251\lib\ext\access-bridge-64.jar:C:\Program Files\Java\jre1.8.0_251\lib\ext\cldrdata.jar:C:\Program Files\Java\jre1.8.0_251\lib\ext\dnsns.jar:C:\Program Files\Java\jre1.8.0_251\lib\ext\jaccess.jar:C:\Program Files\Java\jre1.8.0_251\lib\ext\jfxrt.jar:C:\Program Files\Java\jre1.8.0_251\lib\ext\localedata.jar:C:\Program Files\Java\jre1.8.0_251\lib\ext\nashorn.jar:C:\Program Files\Java\jre1.8.0_251\lib\ext\sunec.jar:C:\Program Files\Java\jre1.8.0_251\lib\ext\sunjce_provider.jar:C:\Program Files\Java\jre1.8.0_251\lib\ext\sunmscapi.jar:C:\Program Files\Java\jre1.8.0_251\lib\ext\sunpkcs11.jar:C:\Program Files\Java\jre1.8.0_251\lib\ext\zipfs.jar:C:\Users\sushanth\eclipse-workspace\Myself\target\test-classes:C:\Users\sushanth\eclipse-workspace\Myself\target\classes:C:\Users\sushanth\.m2\repository\org\testng\testng\7.1.0\testng-7.1.0.jar:C:\Users\sushanth\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar:C:\Users\sushanth\.m2\repository\com\google\inject\guice\4.1.0\guice-4.1.0-no_aop.jar:C:\Users\sushanth\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar:C:\Users\sushanth\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar:C:\Users\sushanth\.m2\repository\org\yaml\snakeyaml\1.21\snakeyaml-1.21.jar:C:\Users\sushanth\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar:C:\Users\sushanth\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar:C:\Users\sushanth\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar:C:\Users\sushanth\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar:C:\Users\sushanth\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar:C:\Users\sushanth\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar:C:\Users\sushanth\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar:C:\Users\sushanth\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar:C:\Users\sushanth\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar:C:\Users\sushanth\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar:C:\Users\sushanth\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar:C:\Users\sushanth\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar:C:\Users\sushanth\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar:C:\Users\sushanth\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar:C:\Users\sushanth\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar:C:\Users\sushanth\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar:C:\Users\sushanth\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar:C:\Users\sushanth\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar:C:\Users\sushanth\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar:C:\Users\sushanth\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar:C:\Users\sushanth\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar org.testng.remote.RemoteTestNG -serport 52138 -protocol json -d C:\Users\sushanth\eclipse-workspace\Myself\test-output C:\Users\sushanth\AppData\Local\Temp\testng-eclipse--1011592623\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2020-05-23 23:23:30.949
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\sushanth\Downloads\eclipse-java-oxygen-3a-win32-x86_64\eclipse\configuration\org.eclipse.osgi\514\0\.cp\lib\testng-remote.jar C:\Program Files\Java\jre1.8.0_251\lib\resources.jar C:\Program Files\Java\jre1.8.0_251\lib\rt.jar C:\Program Files\Java\jre1.8.0_251\lib\jsse.jar C:\Program Files\Java\jre1.8.0_251\lib\jce.jar C:\Program Files\Java\jre1.8.0_251\lib\charsets.jar C:\Program Files\Java\jre1.8.0_251\lib\jfr.jar C:\Program Files\Java\jre1.8.0_251\lib\ext\access-bridge-64.jar C:\Program Files\Java\jre1.8.0_251\lib\ext\cldrdata.jar C:\Program Files\Java\jre1.8.0_251\lib\ext\dnsns.jar C:\Program Files\Java\jre1.8.0_251\lib\ext\jaccess.jar C:\Program Files\Java\jre1.8.0_251\lib\ext\jfxrt.jar C:\Program Files\Java\jre1.8.0_251\lib\ext\localedata.jar C:\Program Files\Java\jre1.8.0_251\lib\ext\nashorn.jar C:\Program Files\Java\jre1.8.0_251\lib\ext\sunec.jar C:\Program Files\Java\jre1.8.0_251\lib\ext\sunjce_provider.jar C:\Program Files\Java\jre1.8.0_251\lib\ext\sunmscapi.jar C:\Program Files\Java\jre1.8.0_251\lib\ext\sunpkcs11.jar C:\Program Files\Java\jre1.8.0_251\lib\ext\zipfs.jar C:\Users\sushanth\eclipse-workspace\Myself\target\test-classes C:\Users\sushanth\eclipse-workspace\Myself\target\classes C:\Users\sushanth\.m2\repository\org\testng\testng\7.1.0\testng-7.1.0.jar C:\Users\sushanth\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar C:\Users\sushanth\.m2\repository\com\google\inject\guice\4.1.0\guice-4.1.0-no_aop.jar C:\Users\sushanth\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar C:\Users\sushanth\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar C:\Users\sushanth\.m2\repository\org\yaml\snakeyaml\1.21\snakeyaml-1.21.jar C:\Users\sushanth\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar C:\Users\sushanth\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar C:\Users\sushanth\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar C:\Users\sushanth\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar C:\Users\sushanth\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar C:\Users\sushanth\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar C:\Users\sushanth\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar C:\Users\sushanth\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar C:\Users\sushanth\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar C:\Users\sushanth\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar C:\Users\sushanth\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar C:\Users\sushanth\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar C:\Users\sushanth\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar C:\Users\sushanth\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar C:\Users\sushanth\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar C:\Users\sushanth\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar C:\Users\sushanth\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar C:\Users\sushanth\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar C:\Users\sushanth\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar C:\Users\sushanth\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar C:\Users\sushanth\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 52163 -protocol json -d C:\Users\sushanth\eclipse-workspace\Myself\test-output C:\Users\sushanth\AppData\Local\Temp\testng-eclipse-1286652120\testng-customsuite.xml
+java -ea -classpath C:\Users\sushanth\Downloads\eclipse-java-oxygen-3a-win32-x86_64\eclipse\configuration\org.eclipse.osgi\514\0\.cp\lib\testng-remote.jar:C:\Program Files\Java\jre1.8.0_251\lib\resources.jar:C:\Program Files\Java\jre1.8.0_251\lib\rt.jar:C:\Program Files\Java\jre1.8.0_251\lib\jsse.jar:C:\Program Files\Java\jre1.8.0_251\lib\jce.jar:C:\Program Files\Java\jre1.8.0_251\lib\charsets.jar:C:\Program Files\Java\jre1.8.0_251\lib\jfr.jar:C:\Program Files\Java\jre1.8.0_251\lib\ext\access-bridge-64.jar:C:\Program Files\Java\jre1.8.0_251\lib\ext\cldrdata.jar:C:\Program Files\Java\jre1.8.0_251\lib\ext\dnsns.jar:C:\Program Files\Java\jre1.8.0_251\lib\ext\jaccess.jar:C:\Program Files\Java\jre1.8.0_251\lib\ext\jfxrt.jar:C:\Program Files\Java\jre1.8.0_251\lib\ext\localedata.jar:C:\Program Files\Java\jre1.8.0_251\lib\ext\nashorn.jar:C:\Program Files\Java\jre1.8.0_251\lib\ext\sunec.jar:C:\Program Files\Java\jre1.8.0_251\lib\ext\sunjce_provider.jar:C:\Program Files\Java\jre1.8.0_251\lib\ext\sunmscapi.jar:C:\Program Files\Java\jre1.8.0_251\lib\ext\sunpkcs11.jar:C:\Program Files\Java\jre1.8.0_251\lib\ext\zipfs.jar:C:\Users\sushanth\eclipse-workspace\Myself\target\test-classes:C:\Users\sushanth\eclipse-workspace\Myself\target\classes:C:\Users\sushanth\.m2\repository\org\testng\testng\7.1.0\testng-7.1.0.jar:C:\Users\sushanth\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar:C:\Users\sushanth\.m2\repository\com\google\inject\guice\4.1.0\guice-4.1.0-no_aop.jar:C:\Users\sushanth\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar:C:\Users\sushanth\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar:C:\Users\sushanth\.m2\repository\org\yaml\snakeyaml\1.21\snakeyaml-1.21.jar:C:\Users\sushanth\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar:C:\Users\sushanth\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar:C:\Users\sushanth\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar:C:\Users\sushanth\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar:C:\Users\sushanth\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar:C:\Users\sushanth\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar:C:\Users\sushanth\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar:C:\Users\sushanth\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar:C:\Users\sushanth\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar:C:\Users\sushanth\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar:C:\Users\sushanth\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar:C:\Users\sushanth\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar:C:\Users\sushanth\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar:C:\Users\sushanth\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar:C:\Users\sushanth\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar:C:\Users\sushanth\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar:C:\Users\sushanth\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar:C:\Users\sushanth\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar:C:\Users\sushanth\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar:C:\Users\sushanth\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar:C:\Users\sushanth\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar org.testng.remote.RemoteTestNG -serport 52163 -protocol json -d C:\Users\sushanth\eclipse-workspace\Myself\test-output C:\Users\sushanth\AppData\Local\Temp\testng-eclipse-1286652120\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2020-05-23 23:33:30.422
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\sushanth\Downloads\eclipse-java-oxygen-3a-win32-x86_64\eclipse\configuration\org.eclipse.osgi\514\0\.cp\lib\testng-remote.jar C:\Program Files\Java\jre1.8.0_251\lib\resources.jar C:\Program Files\Java\jre1.8.0_251\lib\rt.jar C:\Program Files\Java\jre1.8.0_251\lib\jsse.jar C:\Program Files\Java\jre1.8.0_251\lib\jce.jar C:\Program Files\Java\jre1.8.0_251\lib\charsets.jar C:\Program Files\Java\jre1.8.0_251\lib\jfr.jar C:\Program Files\Java\jre1.8.0_251\lib\ext\access-bridge-64.jar C:\Program Files\Java\jre1.8.0_251\lib\ext\cldrdata.jar C:\Program Files\Java\jre1.8.0_251\lib\ext\dnsns.jar C:\Program Files\Java\jre1.8.0_251\lib\ext\jaccess.jar C:\Program Files\Java\jre1.8.0_251\lib\ext\jfxrt.jar C:\Program Files\Java\jre1.8.0_251\lib\ext\localedata.jar C:\Program Files\Java\jre1.8.0_251\lib\ext\nashorn.jar C:\Program Files\Java\jre1.8.0_251\lib\ext\sunec.jar C:\Program Files\Java\jre1.8.0_251\lib\ext\sunjce_provider.jar C:\Program Files\Java\jre1.8.0_251\lib\ext\sunmscapi.jar C:\Program Files\Java\jre1.8.0_251\lib\ext\sunpkcs11.jar C:\Program Files\Java\jre1.8.0_251\lib\ext\zipfs.jar C:\Users\sushanth\eclipse-workspace\Myself\target\test-classes C:\Users\sushanth\eclipse-workspace\Myself\target\classes C:\Users\sushanth\.m2\repository\org\testng\testng\7.1.0\testng-7.1.0.jar C:\Users\sushanth\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar C:\Users\sushanth\.m2\repository\com\google\inject\guice\4.1.0\guice-4.1.0-no_aop.jar C:\Users\sushanth\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar C:\Users\sushanth\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar C:\Users\sushanth\.m2\repository\org\yaml\snakeyaml\1.21\snakeyaml-1.21.jar C:\Users\sushanth\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar C:\Users\sushanth\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar C:\Users\sushanth\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar C:\Users\sushanth\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar C:\Users\sushanth\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar C:\Users\sushanth\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar C:\Users\sushanth\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar C:\Users\sushanth\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar C:\Users\sushanth\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar C:\Users\sushanth\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar C:\Users\sushanth\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar C:\Users\sushanth\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar C:\Users\sushanth\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar C:\Users\sushanth\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar C:\Users\sushanth\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar C:\Users\sushanth\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar C:\Users\sushanth\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar C:\Users\sushanth\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar C:\Users\sushanth\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar C:\Users\sushanth\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar C:\Users\sushanth\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 52265 -protocol json -d C:\Users\sushanth\eclipse-workspace\Myself\test-output C:\Users\sushanth\AppData\Local\Temp\testng-eclipse-919623571\testng-customsuite.xml
+java -ea -classpath C:\Users\sushanth\Downloads\eclipse-java-oxygen-3a-win32-x86_64\eclipse\configuration\org.eclipse.osgi\514\0\.cp\lib\testng-remote.jar:C:\Program Files\Java\jre1.8.0_251\lib\resources.jar:C:\Program Files\Java\jre1.8.0_251\lib\rt.jar:C:\Program Files\Java\jre1.8.0_251\lib\jsse.jar:C:\Program Files\Java\jre1.8.0_251\lib\jce.jar:C:\Program Files\Java\jre1.8.0_251\lib\charsets.jar:C:\Program Files\Java\jre1.8.0_251\lib\jfr.jar:C:\Program Files\Java\jre1.8.0_251\lib\ext\access-bridge-64.jar:C:\Program Files\Java\jre1.8.0_251\lib\ext\cldrdata.jar:C:\Program Files\Java\jre1.8.0_251\lib\ext\dnsns.jar:C:\Program Files\Java\jre1.8.0_251\lib\ext\jaccess.jar:C:\Program Files\Java\jre1.8.0_251\lib\ext\jfxrt.jar:C:\Program Files\Java\jre1.8.0_251\lib\ext\localedata.jar:C:\Program Files\Java\jre1.8.0_251\lib\ext\nashorn.jar:C:\Program Files\Java\jre1.8.0_251\lib\ext\sunec.jar:C:\Program Files\Java\jre1.8.0_251\lib\ext\sunjce_provider.jar:C:\Program Files\Java\jre1.8.0_251\lib\ext\sunmscapi.jar:C:\Program Files\Java\jre1.8.0_251\lib\ext\sunpkcs11.jar:C:\Program Files\Java\jre1.8.0_251\lib\ext\zipfs.jar:C:\Users\sushanth\eclipse-workspace\Myself\target\test-classes:C:\Users\sushanth\eclipse-workspace\Myself\target\classes:C:\Users\sushanth\.m2\repository\org\testng\testng\7.1.0\testng-7.1.0.jar:C:\Users\sushanth\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar:C:\Users\sushanth\.m2\repository\com\google\inject\guice\4.1.0\guice-4.1.0-no_aop.jar:C:\Users\sushanth\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar:C:\Users\sushanth\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar:C:\Users\sushanth\.m2\repository\org\yaml\snakeyaml\1.21\snakeyaml-1.21.jar:C:\Users\sushanth\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar:C:\Users\sushanth\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar:C:\Users\sushanth\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar:C:\Users\sushanth\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar:C:\Users\sushanth\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar:C:\Users\sushanth\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar:C:\Users\sushanth\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar:C:\Users\sushanth\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar:C:\Users\sushanth\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar:C:\Users\sushanth\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar:C:\Users\sushanth\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar:C:\Users\sushanth\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar:C:\Users\sushanth\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar:C:\Users\sushanth\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar:C:\Users\sushanth\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar:C:\Users\sushanth\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar:C:\Users\sushanth\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar:C:\Users\sushanth\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar:C:\Users\sushanth\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar:C:\Users\sushanth\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar:C:\Users\sushanth\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar org.testng.remote.RemoteTestNG -serport 52265 -protocol json -d C:\Users\sushanth\eclipse-workspace\Myself\test-output C:\Users\sushanth\AppData\Local\Temp\testng-eclipse-919623571\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2020-05-23 23:33:51.232
+!MESSAGE [TestNGLaunchShortcut] Examining Java element:src/test/java [in Myself]
+  <default> (...)
+  Testing (...)
+  Testing.Myself (...)
+
+!ENTRY org.testng.eclipse 1 0 2020-05-23 23:33:51.233
+!MESSAGE [TestNGLaunchShortcut] Examining Java element:<default> [in src/test/java [in Myself]]
+
+!ENTRY org.testng.eclipse 1 0 2020-05-23 23:33:51.234
+!MESSAGE [TestNGLaunchShortcut] Examining Java element:Testing [in src/test/java [in Myself]]
+
+!ENTRY org.testng.eclipse 1 0 2020-05-23 23:33:51.235
+!MESSAGE [TestNGLaunchShortcut] Examining Java element:Testing.Myself [in src/test/java [in Myself]]
+  [Working copy] Triangle.java
+    package Testing.Myself
+    import org.testng.annotations.Test
+    class Triangle
+      void date()
+  [Working copy] square.java
+    package Testing.Myself
+    import org.testng.annotations.Test
+    class square
+      void name()
+      void height()
+  [Working copy] cube.java
+    package Testing.Myself
+    import org.openqa.selenium.WebDriver
+    import org.openqa.selenium.chrome.ChromeDriver
+    import org.testng.Assert
+    import org.testng.annotations.BeforeTest
+    import org.testng.annotations.Test
+    class cube
+      void squareofCube()
+      void threeTimesofCube()
+  [Working copy] execution.java
+    package Testing.Myself
+    class execution
+      static void main(String[])
+  [Working copy] prism.java
+    package Testing.Myself
+    import org.testng.annotations.Test
+    class prism
+      void square()
+      void squarePrism()
+
+!ENTRY org.testng.eclipse 1 0 2020-05-23 23:33:51.801
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\sushanth\Downloads\eclipse-java-oxygen-3a-win32-x86_64\eclipse\configuration\org.eclipse.osgi\514\0\.cp\lib\testng-remote.jar C:\Program Files\Java\jre1.8.0_251\lib\resources.jar C:\Program Files\Java\jre1.8.0_251\lib\rt.jar C:\Program Files\Java\jre1.8.0_251\lib\jsse.jar C:\Program Files\Java\jre1.8.0_251\lib\jce.jar C:\Program Files\Java\jre1.8.0_251\lib\charsets.jar C:\Program Files\Java\jre1.8.0_251\lib\jfr.jar C:\Program Files\Java\jre1.8.0_251\lib\ext\access-bridge-64.jar C:\Program Files\Java\jre1.8.0_251\lib\ext\cldrdata.jar C:\Program Files\Java\jre1.8.0_251\lib\ext\dnsns.jar C:\Program Files\Java\jre1.8.0_251\lib\ext\jaccess.jar C:\Program Files\Java\jre1.8.0_251\lib\ext\jfxrt.jar C:\Program Files\Java\jre1.8.0_251\lib\ext\localedata.jar C:\Program Files\Java\jre1.8.0_251\lib\ext\nashorn.jar C:\Program Files\Java\jre1.8.0_251\lib\ext\sunec.jar C:\Program Files\Java\jre1.8.0_251\lib\ext\sunjce_provider.jar C:\Program Files\Java\jre1.8.0_251\lib\ext\sunmscapi.jar C:\Program Files\Java\jre1.8.0_251\lib\ext\sunpkcs11.jar C:\Program Files\Java\jre1.8.0_251\lib\ext\zipfs.jar C:\Users\sushanth\eclipse-workspace\Myself\target\test-classes C:\Users\sushanth\eclipse-workspace\Myself\target\classes C:\Users\sushanth\.m2\repository\org\testng\testng\7.1.0\testng-7.1.0.jar C:\Users\sushanth\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar C:\Users\sushanth\.m2\repository\com\google\inject\guice\4.1.0\guice-4.1.0-no_aop.jar C:\Users\sushanth\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar C:\Users\sushanth\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar C:\Users\sushanth\.m2\repository\org\yaml\snakeyaml\1.21\snakeyaml-1.21.jar C:\Users\sushanth\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar C:\Users\sushanth\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar C:\Users\sushanth\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar C:\Users\sushanth\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar C:\Users\sushanth\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar C:\Users\sushanth\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar C:\Users\sushanth\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar C:\Users\sushanth\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar C:\Users\sushanth\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar C:\Users\sushanth\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar C:\Users\sushanth\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar C:\Users\sushanth\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar C:\Users\sushanth\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar C:\Users\sushanth\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar C:\Users\sushanth\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar C:\Users\sushanth\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar C:\Users\sushanth\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar C:\Users\sushanth\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar C:\Users\sushanth\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar C:\Users\sushanth\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar C:\Users\sushanth\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 52269 -protocol json -d C:\Users\sushanth\eclipse-workspace\Myself\test-output C:\Users\sushanth\AppData\Local\Temp\testng-eclipse-1911906309\testng-customsuite.xml
+java -ea -classpath C:\Users\sushanth\Downloads\eclipse-java-oxygen-3a-win32-x86_64\eclipse\configuration\org.eclipse.osgi\514\0\.cp\lib\testng-remote.jar:C:\Program Files\Java\jre1.8.0_251\lib\resources.jar:C:\Program Files\Java\jre1.8.0_251\lib\rt.jar:C:\Program Files\Java\jre1.8.0_251\lib\jsse.jar:C:\Program Files\Java\jre1.8.0_251\lib\jce.jar:C:\Program Files\Java\jre1.8.0_251\lib\charsets.jar:C:\Program Files\Java\jre1.8.0_251\lib\jfr.jar:C:\Program Files\Java\jre1.8.0_251\lib\ext\access-bridge-64.jar:C:\Program Files\Java\jre1.8.0_251\lib\ext\cldrdata.jar:C:\Program Files\Java\jre1.8.0_251\lib\ext\dnsns.jar:C:\Program Files\Java\jre1.8.0_251\lib\ext\jaccess.jar:C:\Program Files\Java\jre1.8.0_251\lib\ext\jfxrt.jar:C:\Program Files\Java\jre1.8.0_251\lib\ext\localedata.jar:C:\Program Files\Java\jre1.8.0_251\lib\ext\nashorn.jar:C:\Program Files\Java\jre1.8.0_251\lib\ext\sunec.jar:C:\Program Files\Java\jre1.8.0_251\lib\ext\sunjce_provider.jar:C:\Program Files\Java\jre1.8.0_251\lib\ext\sunmscapi.jar:C:\Program Files\Java\jre1.8.0_251\lib\ext\sunpkcs11.jar:C:\Program Files\Java\jre1.8.0_251\lib\ext\zipfs.jar:C:\Users\sushanth\eclipse-workspace\Myself\target\test-classes:C:\Users\sushanth\eclipse-workspace\Myself\target\classes:C:\Users\sushanth\.m2\repository\org\testng\testng\7.1.0\testng-7.1.0.jar:C:\Users\sushanth\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar:C:\Users\sushanth\.m2\repository\com\google\inject\guice\4.1.0\guice-4.1.0-no_aop.jar:C:\Users\sushanth\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar:C:\Users\sushanth\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar:C:\Users\sushanth\.m2\repository\org\yaml\snakeyaml\1.21\snakeyaml-1.21.jar:C:\Users\sushanth\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar:C:\Users\sushanth\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar:C:\Users\sushanth\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar:C:\Users\sushanth\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar:C:\Users\sushanth\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar:C:\Users\sushanth\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar:C:\Users\sushanth\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar:C:\Users\sushanth\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar:C:\Users\sushanth\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar:C:\Users\sushanth\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar:C:\Users\sushanth\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar:C:\Users\sushanth\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar:C:\Users\sushanth\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar:C:\Users\sushanth\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar:C:\Users\sushanth\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar:C:\Users\sushanth\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar:C:\Users\sushanth\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar:C:\Users\sushanth\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar:C:\Users\sushanth\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar:C:\Users\sushanth\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar:C:\Users\sushanth\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar org.testng.remote.RemoteTestNG -serport 52269 -protocol json -d C:\Users\sushanth\eclipse-workspace\Myself\test-output C:\Users\sushanth\AppData\Local\Temp\testng-eclipse-1911906309\testng-customsuite.xml
+
+!ENTRY org.eclipse.ui 4 4 2020-05-23 23:35:17.606
+!MESSAGE To avoid deadlock while executing Display.syncExec() with argument: org.eclipse.debug.internal.ui.sourcelookup.Prompter$1@5833279f, thread Worker-110 will interrupt UI thread.
+!SUBENTRY 1 org.eclipse.ui 4 4 2020-05-23 23:35:17.606
+!MESSAGE Worker-110 thread is an instance of Worker or owns an ILock
+!STACK 0
+java.lang.IllegalStateException: Call stack for thread Worker-110
+	at sun.management.ThreadImpl.dumpThreads0(Native Method)
+	at sun.management.ThreadImpl.getThreadInfo(Unknown Source)
+	at org.eclipse.ui.internal.UILockListener.reportInterruption(UILockListener.java:206)
+	at org.eclipse.ui.internal.UILockListener.interruptUI(UILockListener.java:176)
+	at org.eclipse.ui.internal.PendingSyncExec.waitUntilExecuted(PendingSyncExec.java:82)
+	at org.eclipse.ui.internal.UISynchronizer.syncExec(UISynchronizer.java:153)
+	at org.eclipse.swt.widgets.Display.syncExec(Display.java:4889)
+	at org.eclipse.debug.internal.ui.sourcelookup.Prompter.handleStatus(Prompter.java:81)
+	at org.eclipse.debug.core.model.LaunchConfigurationDelegate.saveBeforeLaunch(LaunchConfigurationDelegate.java:262)
+	at org.eclipse.debug.core.model.LaunchConfigurationDelegate.preLaunchCheck(LaunchConfigurationDelegate.java:214)
+	at org.eclipse.jdt.launching.AbstractJavaLaunchConfigurationDelegate.preLaunchCheck(AbstractJavaLaunchConfigurationDelegate.java:962)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:840)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+!SUBENTRY 1 org.eclipse.ui 4 4 2020-05-23 23:35:17.606
+!MESSAGE UI thread waiting on a job or lock.
+!STACK 0
+java.lang.IllegalStateException: Call stack for thread main
+	at java.lang.Object.wait(Native Method)
+	at org.eclipse.core.internal.jobs.ThreadJob.waitForRun(ThreadJob.java:315)
+	at org.eclipse.core.internal.jobs.ThreadJob.joinRun(ThreadJob.java:202)
+	at org.eclipse.core.internal.jobs.ImplicitJobs.begin(ImplicitJobs.java:92)
+	at org.eclipse.core.internal.jobs.JobManager.beginRule(JobManager.java:308)
+	at org.eclipse.core.internal.resources.WorkManager.checkIn(WorkManager.java:121)
+	at org.eclipse.core.internal.resources.Workspace.prepareOperation(Workspace.java:2188)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2235)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2267)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation.run(WorkspaceModifyOperation.java:128)
+	at org.eclipse.ui.internal.editors.text.WorkspaceOperationRunner.run(WorkspaceOperationRunner.java:73)
+	at org.eclipse.ui.internal.editors.text.WorkspaceOperationRunner.run(WorkspaceOperationRunner.java:63)
+	at org.eclipse.ui.editors.text.TextFileDocumentProvider.executeOperation(TextFileDocumentProvider.java:458)
+	at org.eclipse.ui.editors.text.TextFileDocumentProvider.saveDocument(TextFileDocumentProvider.java:761)
+	at org.eclipse.ui.texteditor.AbstractTextEditor.performSave(AbstractTextEditor.java:5025)
+	at org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitEditor.performSave(CompilationUnitEditor.java:1270)
+	at org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitEditor.doSave(CompilationUnitEditor.java:1324)
+	at org.eclipse.ui.texteditor.AbstractTextEditor$TextEditorSavable.doSave(AbstractTextEditor.java:7117)
+	at org.eclipse.ui.Saveable.doSave(Saveable.java:220)
+	at org.eclipse.ui.internal.SaveableHelper.doSaveModel(SaveableHelper.java:340)
+	at org.eclipse.ui.internal.SaveablesList.lambda$0(SaveablesList.java:667)
+	at org.eclipse.ui.internal.SaveablesList$$Lambda$431/1413795240.run(Unknown Source)
+	at org.eclipse.ui.internal.SaveableHelper.lambda$3(SaveableHelper.java:271)
+	at org.eclipse.ui.internal.SaveableHelper$$Lambda$432/1877009577.run(Unknown Source)
+	at org.eclipse.jface.operation.ModalContext.runInCurrentThread(ModalContext.java:437)
+	at org.eclipse.jface.operation.ModalContext.run(ModalContext.java:353)
+	at org.eclipse.ui.internal.WorkbenchWindow$14.run(WorkbenchWindow.java:2195)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:70)
+	at org.eclipse.ui.internal.WorkbenchWindow.run(WorkbenchWindow.java:2191)
+	at org.eclipse.ui.internal.SaveableHelper.runProgressMonitorOperation(SaveableHelper.java:278)
+	at org.eclipse.ui.internal.SaveablesList.saveModels(SaveablesList.java:676)
+	at org.eclipse.ui.internal.SaveablesList.saveModels(SaveablesList.java:636)
+	at org.eclipse.ui.internal.Workbench.saveAll(Workbench.java:3517)
+	at org.eclipse.ui.ide.IDE$1.run(IDE.java:1513)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.ide.IDE.saveAllEditors(IDE.java:1501)
+	at org.eclipse.debug.internal.ui.launchConfigurations.SaveScopeResourcesHandler.doSave(SaveScopeResourcesHandler.java:257)
+	at org.eclipse.debug.internal.ui.launchConfigurations.SaveScopeResourcesHandler.handleStatus(SaveScopeResourcesHandler.java:211)
+	at org.eclipse.debug.internal.ui.sourcelookup.Prompter$1.run(Prompter.java:72)
+	at org.eclipse.ui.internal.PendingSyncExec.run(PendingSyncExec.java:58)
+	at org.eclipse.ui.internal.UILockListener.doPendingWork(UILockListener.java:168)
+	at org.eclipse.ui.internal.UISynchronizer.lambda$0(UISynchronizer.java:150)
+	at org.eclipse.ui.internal.UISynchronizer$$Lambda$345/1156001824.run(Unknown Source)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:37)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:182)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4213)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3820)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1150)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1039)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:680)
+	at org.eclipse.ui.internal.Workbench$$Lambda$65/1463823265.run(Unknown Source)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:594)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:148)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:151)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:388)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:243)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1499)
+
+!ENTRY org.eclipse.ui 4 4 2020-05-23 23:35:19.384
+!MESSAGE To avoid deadlock while executing Display.syncExec() with argument: org.eclipse.debug.internal.ui.sourcelookup.Prompter$1@5833279f, thread Worker-110 will interrupt UI thread.
+!SUBENTRY 1 org.eclipse.ui 4 4 2020-05-23 23:35:19.384
+!MESSAGE Worker-110 thread is an instance of Worker or owns an ILock
+!STACK 0
+java.lang.IllegalStateException: Call stack for thread Worker-110
+	at sun.management.ThreadImpl.dumpThreads0(Native Method)
+	at sun.management.ThreadImpl.getThreadInfo(Unknown Source)
+	at org.eclipse.ui.internal.UILockListener.reportInterruption(UILockListener.java:206)
+	at org.eclipse.ui.internal.UILockListener.interruptUI(UILockListener.java:176)
+	at org.eclipse.ui.internal.PendingSyncExec.waitUntilExecuted(PendingSyncExec.java:82)
+	at org.eclipse.ui.internal.UISynchronizer.syncExec(UISynchronizer.java:153)
+	at org.eclipse.swt.widgets.Display.syncExec(Display.java:4889)
+	at org.eclipse.debug.internal.ui.sourcelookup.Prompter.handleStatus(Prompter.java:81)
+	at org.eclipse.debug.core.model.LaunchConfigurationDelegate.saveBeforeLaunch(LaunchConfigurationDelegate.java:262)
+	at org.eclipse.debug.core.model.LaunchConfigurationDelegate.preLaunchCheck(LaunchConfigurationDelegate.java:214)
+	at org.eclipse.jdt.launching.AbstractJavaLaunchConfigurationDelegate.preLaunchCheck(AbstractJavaLaunchConfigurationDelegate.java:962)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:840)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+!SUBENTRY 1 org.eclipse.ui 4 4 2020-05-23 23:35:19.385
+!MESSAGE UI thread waiting on a job or lock.
+!STACK 0
+java.lang.IllegalStateException: Call stack for thread main
+	at org.eclipse.e4.core.internal.contexts.WeakGroupedListenerList.getListeners(WeakGroupedListenerList.java:107)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.invalidate(EclipseContext.java:294)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.invalidate(EclipseContext.java:309)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.invalidate(EclipseContext.java:309)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.set(EclipseContext.java:369)
+	at org.eclipse.e4.core.commands.ExpressionContext.addVariable(ExpressionContext.java:83)
+	at org.eclipse.ui.internal.services.EvaluationService.changeVariable(EvaluationService.java:149)
+	at org.eclipse.ui.internal.services.EvaluationService$3.sourceChanged(EvaluationService.java:124)
+	at org.eclipse.ui.AbstractSourceProvider.fireSourceChanged(AbstractSourceProvider.java:89)
+	at org.eclipse.ui.internal.services.WorkbenchSourceProvider.lambda$2(WorkbenchSourceProvider.java:764)
+	at org.eclipse.ui.internal.services.WorkbenchSourceProvider$$Lambda$119/1073835233.handleEvent(Unknown Source)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:86)
+	at org.eclipse.swt.widgets.Display.filterEvent(Display.java:1271)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1078)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1103)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1088)
+	at org.eclipse.swt.widgets.Decorations.WM_ACTIVATE(Decorations.java:1698)
+	at org.eclipse.swt.widgets.Shell.WM_ACTIVATE(Shell.java:2277)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4840)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:359)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1657)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2199)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5178)
+	at org.eclipse.swt.internal.win32.OS.BringWindowToTop(Native Method)
+	at org.eclipse.swt.widgets.Decorations.bringToTop(Decorations.java:232)
+	at org.eclipse.swt.widgets.Shell.open(Shell.java:1270)
+	at org.eclipse.jface.window.Window.open(Window.java:790)
+	at org.eclipse.ui.internal.progress.BlockedJobsDialog$1.runInUIThread(BlockedJobsDialog.java:173)
+	at org.eclipse.ui.progress.UIJob.lambda$0(UIJob.java:95)
+	at org.eclipse.ui.progress.UIJob$$Lambda$338/1519433915.run(Unknown Source)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:37)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:182)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4213)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3820)
+	at org.eclipse.ui.internal.dialogs.EventLoopProgressMonitor.runEventLoop(EventLoopProgressMonitor.java:125)
+	at org.eclipse.ui.internal.dialogs.EventLoopProgressMonitor.isCanceled(EventLoopProgressMonitor.java:99)
+	at org.eclipse.core.runtime.SubMonitor$RootInfo.isCanceled(SubMonitor.java:236)
+	at org.eclipse.core.runtime.SubMonitor.isCanceled(SubMonitor.java:583)
+	at org.eclipse.core.runtime.ProgressMonitorWrapper.isCanceled(ProgressMonitorWrapper.java:111)
+	at org.eclipse.ui.internal.dialogs.EventLoopProgressMonitor.isCanceled(EventLoopProgressMonitor.java:100)
+	at org.eclipse.core.internal.jobs.ThreadJob.isCanceled(ThreadJob.java:144)
+	at org.eclipse.core.internal.jobs.ThreadJob.waitForRun(ThreadJob.java:273)
+	at org.eclipse.core.internal.jobs.ThreadJob.joinRun(ThreadJob.java:202)
+	at org.eclipse.core.internal.jobs.ImplicitJobs.begin(ImplicitJobs.java:92)
+	at org.eclipse.core.internal.jobs.JobManager.beginRule(JobManager.java:308)
+	at org.eclipse.core.internal.resources.WorkManager.checkIn(WorkManager.java:121)
+	at org.eclipse.core.internal.resources.Workspace.prepareOperation(Workspace.java:2188)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2235)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2267)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation.run(WorkspaceModifyOperation.java:128)
+	at org.eclipse.ui.internal.editors.text.WorkspaceOperationRunner.run(WorkspaceOperationRunner.java:73)
+	at org.eclipse.ui.internal.editors.text.WorkspaceOperationRunner.run(WorkspaceOperationRunner.java:63)
+	at org.eclipse.ui.editors.text.TextFileDocumentProvider.executeOperation(TextFileDocumentProvider.java:458)
+	at org.eclipse.ui.editors.text.TextFileDocumentProvider.saveDocument(TextFileDocumentProvider.java:761)
+	at org.eclipse.ui.texteditor.AbstractTextEditor.performSave(AbstractTextEditor.java:5025)
+	at org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitEditor.performSave(CompilationUnitEditor.java:1270)
+	at org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitEditor.doSave(CompilationUnitEditor.java:1324)
+	at org.eclipse.ui.texteditor.AbstractTextEditor$TextEditorSavable.doSave(AbstractTextEditor.java:7117)
+	at org.eclipse.ui.Saveable.doSave(Saveable.java:220)
+	at org.eclipse.ui.internal.SaveableHelper.doSaveModel(SaveableHelper.java:340)
+	at org.eclipse.ui.internal.SaveablesList.lambda$0(SaveablesList.java:667)
+	at org.eclipse.ui.internal.SaveablesList$$Lambda$431/1413795240.run(Unknown Source)
+	at org.eclipse.ui.internal.SaveableHelper.lambda$3(SaveableHelper.java:271)
+	at org.eclipse.ui.internal.SaveableHelper$$Lambda$432/1877009577.run(Unknown Source)
+	at org.eclipse.jface.operation.ModalContext.runInCurrentThread(ModalContext.java:437)
+	at org.eclipse.jface.operation.ModalContext.run(ModalContext.java:353)
+	at org.eclipse.ui.internal.WorkbenchWindow$14.run(WorkbenchWindow.java:2195)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:70)
+	at org.eclipse.ui.internal.WorkbenchWindow.run(WorkbenchWindow.java:2191)
+	at org.eclipse.ui.internal.SaveableHelper.runProgressMonitorOperation(SaveableHelper.java:278)
+	at org.eclipse.ui.internal.SaveablesList.saveModels(SaveablesList.java:676)
+	at org.eclipse.ui.internal.SaveablesList.saveModels(SaveablesList.java:636)
+	at org.eclipse.ui.internal.Workbench.saveAll(Workbench.java:3517)
+	at org.eclipse.ui.ide.IDE$1.run(IDE.java:1513)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.ide.IDE.saveAllEditors(IDE.java:1501)
+	at org.eclipse.debug.internal.ui.launchConfigurations.SaveScopeResourcesHandler.doSave(SaveScopeResourcesHandler.java:257)
+	at org.eclipse.debug.internal.ui.launchConfigurations.SaveScopeResourcesHandler.handleStatus(SaveScopeResourcesHandler.java:211)
+	at org.eclipse.debug.internal.ui.sourcelookup.Prompter$1.run(Prompter.java:72)
+	at org.eclipse.ui.internal.PendingSyncExec.run(PendingSyncExec.java:58)
+	at org.eclipse.ui.internal.UILockListener.doPendingWork(UILockListener.java:168)
+	at org.eclipse.ui.internal.UISynchronizer.lambda$0(UISynchronizer.java:150)
+	at org.eclipse.ui.internal.UISynchronizer$$Lambda$345/1156001824.run(Unknown Source)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:37)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:182)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4213)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3820)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1150)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1039)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:680)
+	at org.eclipse.ui.internal.Workbench$$Lambda$65/1463823265.run(Unknown Source)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:594)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:148)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:151)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:388)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:243)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1499)
+
+!ENTRY org.testng.eclipse 1 0 2020-05-23 23:35:56.766
+!MESSAGE [TestNGLaunchShortcut] Examining Java element:[Working copy] cube.java [in Testing.Myself [in src/test/java [in Myself]]]
+  package Testing.Myself
+  import org.openqa.selenium.WebDriver
+  import org.openqa.selenium.chrome.ChromeDriver
+  import org.testng.Assert
+  import org.testng.annotations.BeforeTest
+  import org.testng.annotations.Test
+  class cube
+    void squareofCube()
+
+!ENTRY org.eclipse.ui 4 4 2020-05-23 23:35:59.493
+!MESSAGE To avoid deadlock while executing Display.syncExec() with argument: org.eclipse.debug.internal.ui.sourcelookup.Prompter$1@20e9c534, thread Worker-101 will interrupt UI thread.
+!SUBENTRY 1 org.eclipse.ui 4 4 2020-05-23 23:35:59.493
+!MESSAGE Worker-101 thread is an instance of Worker or owns an ILock
+!STACK 0
+java.lang.IllegalStateException: Call stack for thread Worker-101
+	at sun.management.ThreadImpl.dumpThreads0(Native Method)
+	at sun.management.ThreadImpl.getThreadInfo(Unknown Source)
+	at org.eclipse.ui.internal.UILockListener.reportInterruption(UILockListener.java:206)
+	at org.eclipse.ui.internal.UILockListener.interruptUI(UILockListener.java:176)
+	at org.eclipse.ui.internal.PendingSyncExec.waitUntilExecuted(PendingSyncExec.java:82)
+	at org.eclipse.ui.internal.UISynchronizer.syncExec(UISynchronizer.java:153)
+	at org.eclipse.swt.widgets.Display.syncExec(Display.java:4889)
+	at org.eclipse.debug.internal.ui.sourcelookup.Prompter.handleStatus(Prompter.java:81)
+	at org.eclipse.debug.core.model.LaunchConfigurationDelegate.saveBeforeLaunch(LaunchConfigurationDelegate.java:262)
+	at org.eclipse.debug.core.model.LaunchConfigurationDelegate.preLaunchCheck(LaunchConfigurationDelegate.java:214)
+	at org.eclipse.jdt.launching.AbstractJavaLaunchConfigurationDelegate.preLaunchCheck(AbstractJavaLaunchConfigurationDelegate.java:962)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:840)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+!SUBENTRY 1 org.eclipse.ui 4 4 2020-05-23 23:35:59.493
+!MESSAGE UI thread waiting on a job or lock.
+!STACK 0
+java.lang.IllegalStateException: Call stack for thread main
+	at java.lang.Object.wait(Native Method)
+	at org.eclipse.core.internal.jobs.ThreadJob.waitForRun(ThreadJob.java:315)
+	at org.eclipse.core.internal.jobs.ThreadJob.joinRun(ThreadJob.java:202)
+	at org.eclipse.core.internal.jobs.ImplicitJobs.begin(ImplicitJobs.java:92)
+	at org.eclipse.core.internal.jobs.JobManager.beginRule(JobManager.java:308)
+	at org.eclipse.core.internal.resources.WorkManager.checkIn(WorkManager.java:121)
+	at org.eclipse.core.internal.resources.Workspace.prepareOperation(Workspace.java:2188)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2235)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2267)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation.run(WorkspaceModifyOperation.java:128)
+	at org.eclipse.ui.internal.editors.text.WorkspaceOperationRunner.run(WorkspaceOperationRunner.java:73)
+	at org.eclipse.ui.internal.editors.text.WorkspaceOperationRunner.run(WorkspaceOperationRunner.java:63)
+	at org.eclipse.ui.editors.text.TextFileDocumentProvider.executeOperation(TextFileDocumentProvider.java:458)
+	at org.eclipse.ui.editors.text.TextFileDocumentProvider.saveDocument(TextFileDocumentProvider.java:761)
+	at org.eclipse.ui.texteditor.AbstractTextEditor.performSave(AbstractTextEditor.java:5025)
+	at org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitEditor.performSave(CompilationUnitEditor.java:1270)
+	at org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitEditor.doSave(CompilationUnitEditor.java:1324)
+	at org.eclipse.ui.texteditor.AbstractTextEditor$TextEditorSavable.doSave(AbstractTextEditor.java:7117)
+	at org.eclipse.ui.Saveable.doSave(Saveable.java:220)
+	at org.eclipse.ui.internal.SaveableHelper.doSaveModel(SaveableHelper.java:340)
+	at org.eclipse.ui.internal.SaveablesList.lambda$0(SaveablesList.java:667)
+	at org.eclipse.ui.internal.SaveablesList$$Lambda$431/1413795240.run(Unknown Source)
+	at org.eclipse.ui.internal.SaveableHelper.lambda$3(SaveableHelper.java:271)
+	at org.eclipse.ui.internal.SaveableHelper$$Lambda$432/1877009577.run(Unknown Source)
+	at org.eclipse.jface.operation.ModalContext.runInCurrentThread(ModalContext.java:437)
+	at org.eclipse.jface.operation.ModalContext.run(ModalContext.java:353)
+	at org.eclipse.ui.internal.WorkbenchWindow$14.run(WorkbenchWindow.java:2195)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:70)
+	at org.eclipse.ui.internal.WorkbenchWindow.run(WorkbenchWindow.java:2191)
+	at org.eclipse.ui.internal.SaveableHelper.runProgressMonitorOperation(SaveableHelper.java:278)
+	at org.eclipse.ui.internal.SaveablesList.saveModels(SaveablesList.java:676)
+	at org.eclipse.ui.internal.SaveablesList.saveModels(SaveablesList.java:636)
+	at org.eclipse.ui.internal.Workbench.saveAll(Workbench.java:3517)
+	at org.eclipse.ui.ide.IDE$1.run(IDE.java:1513)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.ide.IDE.saveAllEditors(IDE.java:1501)
+	at org.eclipse.debug.internal.ui.launchConfigurations.SaveScopeResourcesHandler.doSave(SaveScopeResourcesHandler.java:257)
+	at org.eclipse.debug.internal.ui.launchConfigurations.SaveScopeResourcesHandler.handleStatus(SaveScopeResourcesHandler.java:211)
+	at org.eclipse.debug.internal.ui.sourcelookup.Prompter$1.run(Prompter.java:72)
+	at org.eclipse.ui.internal.PendingSyncExec.run(PendingSyncExec.java:58)
+	at org.eclipse.ui.internal.UILockListener.doPendingWork(UILockListener.java:168)
+	at org.eclipse.ui.internal.UISynchronizer.lambda$0(UISynchronizer.java:150)
+	at org.eclipse.ui.internal.UISynchronizer$$Lambda$345/1156001824.run(Unknown Source)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:37)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:182)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4213)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3820)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1150)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1039)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:680)
+	at org.eclipse.ui.internal.Workbench$$Lambda$65/1463823265.run(Unknown Source)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:594)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:148)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:151)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:388)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:243)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1499)
+
+!ENTRY org.testng.eclipse 1 0 2020-05-23 23:36:04.779
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\sushanth\Downloads\eclipse-java-oxygen-3a-win32-x86_64\eclipse\configuration\org.eclipse.osgi\514\0\.cp\lib\testng-remote.jar C:\Program Files\Java\jre1.8.0_251\lib\resources.jar C:\Program Files\Java\jre1.8.0_251\lib\rt.jar C:\Program Files\Java\jre1.8.0_251\lib\jsse.jar C:\Program Files\Java\jre1.8.0_251\lib\jce.jar C:\Program Files\Java\jre1.8.0_251\lib\charsets.jar C:\Program Files\Java\jre1.8.0_251\lib\jfr.jar C:\Program Files\Java\jre1.8.0_251\lib\ext\access-bridge-64.jar C:\Program Files\Java\jre1.8.0_251\lib\ext\cldrdata.jar C:\Program Files\Java\jre1.8.0_251\lib\ext\dnsns.jar C:\Program Files\Java\jre1.8.0_251\lib\ext\jaccess.jar C:\Program Files\Java\jre1.8.0_251\lib\ext\jfxrt.jar C:\Program Files\Java\jre1.8.0_251\lib\ext\localedata.jar C:\Program Files\Java\jre1.8.0_251\lib\ext\nashorn.jar C:\Program Files\Java\jre1.8.0_251\lib\ext\sunec.jar C:\Program Files\Java\jre1.8.0_251\lib\ext\sunjce_provider.jar C:\Program Files\Java\jre1.8.0_251\lib\ext\sunmscapi.jar C:\Program Files\Java\jre1.8.0_251\lib\ext\sunpkcs11.jar C:\Program Files\Java\jre1.8.0_251\lib\ext\zipfs.jar C:\Users\sushanth\eclipse-workspace\Myself\target\test-classes C:\Users\sushanth\eclipse-workspace\Myself\target\classes C:\Users\sushanth\.m2\repository\org\testng\testng\7.1.0\testng-7.1.0.jar C:\Users\sushanth\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar C:\Users\sushanth\.m2\repository\com\google\inject\guice\4.1.0\guice-4.1.0-no_aop.jar C:\Users\sushanth\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar C:\Users\sushanth\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar C:\Users\sushanth\.m2\repository\org\yaml\snakeyaml\1.21\snakeyaml-1.21.jar C:\Users\sushanth\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar C:\Users\sushanth\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar C:\Users\sushanth\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar C:\Users\sushanth\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar C:\Users\sushanth\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar C:\Users\sushanth\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar C:\Users\sushanth\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar C:\Users\sushanth\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar C:\Users\sushanth\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar C:\Users\sushanth\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar C:\Users\sushanth\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar C:\Users\sushanth\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar C:\Users\sushanth\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar C:\Users\sushanth\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar C:\Users\sushanth\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar C:\Users\sushanth\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar C:\Users\sushanth\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar C:\Users\sushanth\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar C:\Users\sushanth\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar C:\Users\sushanth\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar C:\Users\sushanth\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 52279 -protocol json -d C:\Users\sushanth\eclipse-workspace\Myself\test-output C:\Users\sushanth\AppData\Local\Temp\testng-eclipse--362897754\testng-customsuite.xml
+java -ea -classpath C:\Users\sushanth\Downloads\eclipse-java-oxygen-3a-win32-x86_64\eclipse\configuration\org.eclipse.osgi\514\0\.cp\lib\testng-remote.jar:C:\Program Files\Java\jre1.8.0_251\lib\resources.jar:C:\Program Files\Java\jre1.8.0_251\lib\rt.jar:C:\Program Files\Java\jre1.8.0_251\lib\jsse.jar:C:\Program Files\Java\jre1.8.0_251\lib\jce.jar:C:\Program Files\Java\jre1.8.0_251\lib\charsets.jar:C:\Program Files\Java\jre1.8.0_251\lib\jfr.jar:C:\Program Files\Java\jre1.8.0_251\lib\ext\access-bridge-64.jar:C:\Program Files\Java\jre1.8.0_251\lib\ext\cldrdata.jar:C:\Program Files\Java\jre1.8.0_251\lib\ext\dnsns.jar:C:\Program Files\Java\jre1.8.0_251\lib\ext\jaccess.jar:C:\Program Files\Java\jre1.8.0_251\lib\ext\jfxrt.jar:C:\Program Files\Java\jre1.8.0_251\lib\ext\localedata.jar:C:\Program Files\Java\jre1.8.0_251\lib\ext\nashorn.jar:C:\Program Files\Java\jre1.8.0_251\lib\ext\sunec.jar:C:\Program Files\Java\jre1.8.0_251\lib\ext\sunjce_provider.jar:C:\Program Files\Java\jre1.8.0_251\lib\ext\sunmscapi.jar:C:\Program Files\Java\jre1.8.0_251\lib\ext\sunpkcs11.jar:C:\Program Files\Java\jre1.8.0_251\lib\ext\zipfs.jar:C:\Users\sushanth\eclipse-workspace\Myself\target\test-classes:C:\Users\sushanth\eclipse-workspace\Myself\target\classes:C:\Users\sushanth\.m2\repository\org\testng\testng\7.1.0\testng-7.1.0.jar:C:\Users\sushanth\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar:C:\Users\sushanth\.m2\repository\com\google\inject\guice\4.1.0\guice-4.1.0-no_aop.jar:C:\Users\sushanth\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar:C:\Users\sushanth\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar:C:\Users\sushanth\.m2\repository\org\yaml\snakeyaml\1.21\snakeyaml-1.21.jar:C:\Users\sushanth\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar:C:\Users\sushanth\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar:C:\Users\sushanth\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar:C:\Users\sushanth\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar:C:\Users\sushanth\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar:C:\Users\sushanth\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar:C:\Users\sushanth\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar:C:\Users\sushanth\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar:C:\Users\sushanth\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar:C:\Users\sushanth\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar:C:\Users\sushanth\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar:C:\Users\sushanth\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar:C:\Users\sushanth\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar:C:\Users\sushanth\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar:C:\Users\sushanth\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar:C:\Users\sushanth\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar:C:\Users\sushanth\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar:C:\Users\sushanth\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar:C:\Users\sushanth\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar:C:\Users\sushanth\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar:C:\Users\sushanth\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar org.testng.remote.RemoteTestNG -serport 52279 -protocol json -d C:\Users\sushanth\eclipse-workspace\Myself\test-output C:\Users\sushanth\AppData\Local\Temp\testng-eclipse--362897754\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2020-05-23 23:36:44.064
+!MESSAGE [TestNGLaunchShortcut] Examining Java element:[Working copy] cube.java [in Testing.Myself [in src/test/java [in Myself]]]
+  package Testing.Myself
+  import org.openqa.selenium.WebDriver
+  import org.openqa.selenium.chrome.ChromeDriver
+  import org.testng.Assert
+  import org.testng.annotations.BeforeTest
+  import org.testng.annotations.Test
+  class cube
+    void squareofCube()
+
+!ENTRY org.testng.eclipse 1 0 2020-05-23 23:36:44.334
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\sushanth\Downloads\eclipse-java-oxygen-3a-win32-x86_64\eclipse\configuration\org.eclipse.osgi\514\0\.cp\lib\testng-remote.jar C:\Program Files\Java\jre1.8.0_251\lib\resources.jar C:\Program Files\Java\jre1.8.0_251\lib\rt.jar C:\Program Files\Java\jre1.8.0_251\lib\jsse.jar C:\Program Files\Java\jre1.8.0_251\lib\jce.jar C:\Program Files\Java\jre1.8.0_251\lib\charsets.jar C:\Program Files\Java\jre1.8.0_251\lib\jfr.jar C:\Program Files\Java\jre1.8.0_251\lib\ext\access-bridge-64.jar C:\Program Files\Java\jre1.8.0_251\lib\ext\cldrdata.jar C:\Program Files\Java\jre1.8.0_251\lib\ext\dnsns.jar C:\Program Files\Java\jre1.8.0_251\lib\ext\jaccess.jar C:\Program Files\Java\jre1.8.0_251\lib\ext\jfxrt.jar C:\Program Files\Java\jre1.8.0_251\lib\ext\localedata.jar C:\Program Files\Java\jre1.8.0_251\lib\ext\nashorn.jar C:\Program Files\Java\jre1.8.0_251\lib\ext\sunec.jar C:\Program Files\Java\jre1.8.0_251\lib\ext\sunjce_provider.jar C:\Program Files\Java\jre1.8.0_251\lib\ext\sunmscapi.jar C:\Program Files\Java\jre1.8.0_251\lib\ext\sunpkcs11.jar C:\Program Files\Java\jre1.8.0_251\lib\ext\zipfs.jar C:\Users\sushanth\eclipse-workspace\Myself\target\test-classes C:\Users\sushanth\eclipse-workspace\Myself\target\classes C:\Users\sushanth\.m2\repository\org\testng\testng\7.1.0\testng-7.1.0.jar C:\Users\sushanth\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar C:\Users\sushanth\.m2\repository\com\google\inject\guice\4.1.0\guice-4.1.0-no_aop.jar C:\Users\sushanth\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar C:\Users\sushanth\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar C:\Users\sushanth\.m2\repository\org\yaml\snakeyaml\1.21\snakeyaml-1.21.jar C:\Users\sushanth\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar C:\Users\sushanth\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar C:\Users\sushanth\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar C:\Users\sushanth\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar C:\Users\sushanth\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar C:\Users\sushanth\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar C:\Users\sushanth\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar C:\Users\sushanth\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar C:\Users\sushanth\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar C:\Users\sushanth\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar C:\Users\sushanth\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar C:\Users\sushanth\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar C:\Users\sushanth\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar C:\Users\sushanth\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar C:\Users\sushanth\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar C:\Users\sushanth\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar C:\Users\sushanth\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar C:\Users\sushanth\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar C:\Users\sushanth\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar C:\Users\sushanth\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar C:\Users\sushanth\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 52288 -protocol json -d C:\Users\sushanth\eclipse-workspace\Myself\test-output C:\Users\sushanth\AppData\Local\Temp\testng-eclipse-625769001\testng-customsuite.xml
+java -ea -classpath C:\Users\sushanth\Downloads\eclipse-java-oxygen-3a-win32-x86_64\eclipse\configuration\org.eclipse.osgi\514\0\.cp\lib\testng-remote.jar:C:\Program Files\Java\jre1.8.0_251\lib\resources.jar:C:\Program Files\Java\jre1.8.0_251\lib\rt.jar:C:\Program Files\Java\jre1.8.0_251\lib\jsse.jar:C:\Program Files\Java\jre1.8.0_251\lib\jce.jar:C:\Program Files\Java\jre1.8.0_251\lib\charsets.jar:C:\Program Files\Java\jre1.8.0_251\lib\jfr.jar:C:\Program Files\Java\jre1.8.0_251\lib\ext\access-bridge-64.jar:C:\Program Files\Java\jre1.8.0_251\lib\ext\cldrdata.jar:C:\Program Files\Java\jre1.8.0_251\lib\ext\dnsns.jar:C:\Program Files\Java\jre1.8.0_251\lib\ext\jaccess.jar:C:\Program Files\Java\jre1.8.0_251\lib\ext\jfxrt.jar:C:\Program Files\Java\jre1.8.0_251\lib\ext\localedata.jar:C:\Program Files\Java\jre1.8.0_251\lib\ext\nashorn.jar:C:\Program Files\Java\jre1.8.0_251\lib\ext\sunec.jar:C:\Program Files\Java\jre1.8.0_251\lib\ext\sunjce_provider.jar:C:\Program Files\Java\jre1.8.0_251\lib\ext\sunmscapi.jar:C:\Program Files\Java\jre1.8.0_251\lib\ext\sunpkcs11.jar:C:\Program Files\Java\jre1.8.0_251\lib\ext\zipfs.jar:C:\Users\sushanth\eclipse-workspace\Myself\target\test-classes:C:\Users\sushanth\eclipse-workspace\Myself\target\classes:C:\Users\sushanth\.m2\repository\org\testng\testng\7.1.0\testng-7.1.0.jar:C:\Users\sushanth\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar:C:\Users\sushanth\.m2\repository\com\google\inject\guice\4.1.0\guice-4.1.0-no_aop.jar:C:\Users\sushanth\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar:C:\Users\sushanth\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar:C:\Users\sushanth\.m2\repository\org\yaml\snakeyaml\1.21\snakeyaml-1.21.jar:C:\Users\sushanth\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar:C:\Users\sushanth\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar:C:\Users\sushanth\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar:C:\Users\sushanth\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar:C:\Users\sushanth\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar:C:\Users\sushanth\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar:C:\Users\sushanth\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar:C:\Users\sushanth\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar:C:\Users\sushanth\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar:C:\Users\sushanth\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar:C:\Users\sushanth\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar:C:\Users\sushanth\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar:C:\Users\sushanth\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar:C:\Users\sushanth\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar:C:\Users\sushanth\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar:C:\Users\sushanth\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar:C:\Users\sushanth\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar:C:\Users\sushanth\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar:C:\Users\sushanth\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar:C:\Users\sushanth\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar:C:\Users\sushanth\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar org.testng.remote.RemoteTestNG -serport 52288 -protocol json -d C:\Users\sushanth\eclipse-workspace\Myself\test-output C:\Users\sushanth\AppData\Local\Temp\testng-eclipse-625769001\testng-customsuite.xml
+
+!ENTRY org.testng.eclipse 1 0 2020-05-23 23:38:54.230
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\sushanth\Downloads\eclipse-java-oxygen-3a-win32-x86_64\eclipse\configuration\org.eclipse.osgi\514\0\.cp\lib\testng-remote.jar C:\Program Files\Java\jre1.8.0_251\lib\resources.jar C:\Program Files\Java\jre1.8.0_251\lib\rt.jar C:\Program Files\Java\jre1.8.0_251\lib\jsse.jar C:\Program Files\Java\jre1.8.0_251\lib\jce.jar C:\Program Files\Java\jre1.8.0_251\lib\charsets.jar C:\Program Files\Java\jre1.8.0_251\lib\jfr.jar C:\Program Files\Java\jre1.8.0_251\lib\ext\access-bridge-64.jar C:\Program Files\Java\jre1.8.0_251\lib\ext\cldrdata.jar C:\Program Files\Java\jre1.8.0_251\lib\ext\dnsns.jar C:\Program Files\Java\jre1.8.0_251\lib\ext\jaccess.jar C:\Program Files\Java\jre1.8.0_251\lib\ext\jfxrt.jar C:\Program Files\Java\jre1.8.0_251\lib\ext\localedata.jar C:\Program Files\Java\jre1.8.0_251\lib\ext\nashorn.jar C:\Program Files\Java\jre1.8.0_251\lib\ext\sunec.jar C:\Program Files\Java\jre1.8.0_251\lib\ext\sunjce_provider.jar C:\Program Files\Java\jre1.8.0_251\lib\ext\sunmscapi.jar C:\Program Files\Java\jre1.8.0_251\lib\ext\sunpkcs11.jar C:\Program Files\Java\jre1.8.0_251\lib\ext\zipfs.jar C:\Users\sushanth\eclipse-workspace\Myself\target\test-classes C:\Users\sushanth\eclipse-workspace\Myself\target\classes C:\Users\sushanth\.m2\repository\org\testng\testng\6.14.3\testng-6.14.3.jar C:\Users\sushanth\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar C:\Users\sushanth\.m2\repository\org\apache-extras\beanshell\bsh\2.0b6\bsh-2.0b6.jar C:\Users\sushanth\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar C:\Users\sushanth\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar C:\Users\sushanth\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar C:\Users\sushanth\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar C:\Users\sushanth\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar C:\Users\sushanth\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar C:\Users\sushanth\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar C:\Users\sushanth\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar C:\Users\sushanth\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar C:\Users\sushanth\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar C:\Users\sushanth\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar C:\Users\sushanth\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar C:\Users\sushanth\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar C:\Users\sushanth\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar C:\Users\sushanth\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar C:\Users\sushanth\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar C:\Users\sushanth\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar C:\Users\sushanth\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar C:\Users\sushanth\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar C:\Users\sushanth\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar C:\Users\sushanth\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 52360 -protocol json -d C:\Users\sushanth\eclipse-workspace\Myself\test-output C:\Users\sushanth\eclipse-workspace\Myself\testng.xml
+java -ea -classpath C:\Users\sushanth\Downloads\eclipse-java-oxygen-3a-win32-x86_64\eclipse\configuration\org.eclipse.osgi\514\0\.cp\lib\testng-remote.jar:C:\Program Files\Java\jre1.8.0_251\lib\resources.jar:C:\Program Files\Java\jre1.8.0_251\lib\rt.jar:C:\Program Files\Java\jre1.8.0_251\lib\jsse.jar:C:\Program Files\Java\jre1.8.0_251\lib\jce.jar:C:\Program Files\Java\jre1.8.0_251\lib\charsets.jar:C:\Program Files\Java\jre1.8.0_251\lib\jfr.jar:C:\Program Files\Java\jre1.8.0_251\lib\ext\access-bridge-64.jar:C:\Program Files\Java\jre1.8.0_251\lib\ext\cldrdata.jar:C:\Program Files\Java\jre1.8.0_251\lib\ext\dnsns.jar:C:\Program Files\Java\jre1.8.0_251\lib\ext\jaccess.jar:C:\Program Files\Java\jre1.8.0_251\lib\ext\jfxrt.jar:C:\Program Files\Java\jre1.8.0_251\lib\ext\localedata.jar:C:\Program Files\Java\jre1.8.0_251\lib\ext\nashorn.jar:C:\Program Files\Java\jre1.8.0_251\lib\ext\sunec.jar:C:\Program Files\Java\jre1.8.0_251\lib\ext\sunjce_provider.jar:C:\Program Files\Java\jre1.8.0_251\lib\ext\sunmscapi.jar:C:\Program Files\Java\jre1.8.0_251\lib\ext\sunpkcs11.jar:C:\Program Files\Java\jre1.8.0_251\lib\ext\zipfs.jar:C:\Users\sushanth\eclipse-workspace\Myself\target\test-classes:C:\Users\sushanth\eclipse-workspace\Myself\target\classes:C:\Users\sushanth\.m2\repository\org\testng\testng\6.14.3\testng-6.14.3.jar:C:\Users\sushanth\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar:C:\Users\sushanth\.m2\repository\org\apache-extras\beanshell\bsh\2.0b6\bsh-2.0b6.jar:C:\Users\sushanth\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar:C:\Users\sushanth\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar:C:\Users\sushanth\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar:C:\Users\sushanth\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar:C:\Users\sushanth\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar:C:\Users\sushanth\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar:C:\Users\sushanth\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar:C:\Users\sushanth\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar:C:\Users\sushanth\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar:C:\Users\sushanth\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar:C:\Users\sushanth\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar:C:\Users\sushanth\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar:C:\Users\sushanth\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar:C:\Users\sushanth\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar:C:\Users\sushanth\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar:C:\Users\sushanth\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar:C:\Users\sushanth\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar:C:\Users\sushanth\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar:C:\Users\sushanth\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar:C:\Users\sushanth\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar:C:\Users\sushanth\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar org.testng.remote.RemoteTestNG -serport 52360 -protocol json -d C:\Users\sushanth\eclipse-workspace\Myself\test-output C:\Users\sushanth\eclipse-workspace\Myself\testng.xml
+
+!ENTRY org.testng.eclipse 1 0 2020-05-24 00:48:18.794
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\sushanth\Downloads\eclipse-java-oxygen-3a-win32-x86_64\eclipse\configuration\org.eclipse.osgi\514\0\.cp\lib\testng-remote.jar C:\Program Files\Java\jre1.8.0_251\lib\resources.jar C:\Program Files\Java\jre1.8.0_251\lib\rt.jar C:\Program Files\Java\jre1.8.0_251\lib\jsse.jar C:\Program Files\Java\jre1.8.0_251\lib\jce.jar C:\Program Files\Java\jre1.8.0_251\lib\charsets.jar C:\Program Files\Java\jre1.8.0_251\lib\jfr.jar C:\Program Files\Java\jre1.8.0_251\lib\ext\access-bridge-64.jar C:\Program Files\Java\jre1.8.0_251\lib\ext\cldrdata.jar C:\Program Files\Java\jre1.8.0_251\lib\ext\dnsns.jar C:\Program Files\Java\jre1.8.0_251\lib\ext\jaccess.jar C:\Program Files\Java\jre1.8.0_251\lib\ext\jfxrt.jar C:\Program Files\Java\jre1.8.0_251\lib\ext\localedata.jar C:\Program Files\Java\jre1.8.0_251\lib\ext\nashorn.jar C:\Program Files\Java\jre1.8.0_251\lib\ext\sunec.jar C:\Program Files\Java\jre1.8.0_251\lib\ext\sunjce_provider.jar C:\Program Files\Java\jre1.8.0_251\lib\ext\sunmscapi.jar C:\Program Files\Java\jre1.8.0_251\lib\ext\sunpkcs11.jar C:\Program Files\Java\jre1.8.0_251\lib\ext\zipfs.jar C:\Users\sushanth\eclipse-workspace\extentReports\target\test-classes C:\Users\sushanth\eclipse-workspace\extentReports\target\classes C:\Users\sushanth\.m2\repository\org\testng\testng\6.14.3\testng-6.14.3.jar C:\Users\sushanth\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar C:\Users\sushanth\.m2\repository\org\apache-extras\beanshell\bsh\2.0b6\bsh-2.0b6.jar C:\Users\sushanth\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar C:\Users\sushanth\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar C:\Users\sushanth\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar C:\Users\sushanth\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar C:\Users\sushanth\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar C:\Users\sushanth\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar C:\Users\sushanth\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar C:\Users\sushanth\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar C:\Users\sushanth\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar C:\Users\sushanth\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar C:\Users\sushanth\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar C:\Users\sushanth\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar C:\Users\sushanth\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar C:\Users\sushanth\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar C:\Users\sushanth\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar C:\Users\sushanth\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar C:\Users\sushanth\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar C:\Users\sushanth\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar C:\Users\sushanth\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar C:\Users\sushanth\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar C:\Users\sushanth\.m2\repository\com\aventstack\extentreports\4.1.5\extentreports-4.1.5.jar C:\Users\sushanth\.m2\repository\org\freemarker\freemarker\2.3.29\freemarker-2.3.29.jar C:\Users\sushanth\.m2\repository\org\apache\httpcomponents\httpclient\4.5.2\httpclient-4.5.2.jar C:\Users\sushanth\.m2\repository\org\apache\httpcomponents\httpcore\4.4.4\httpcore-4.4.4.jar C:\Users\sushanth\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar C:\Users\sushanth\.m2\repository\commons-codec\commons-codec\1.9\commons-codec-1.9.jar C:\Users\sushanth\.m2\repository\org\apache\httpcomponents\httpmime\4.5.2\httpmime-4.5.2.jar C:\Users\sushanth\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar C:\Users\sushanth\.m2\repository\org\mongodb\mongodb-driver\3.12.0\mongodb-driver-3.12.0.jar C:\Users\sushanth\.m2\repository\org\mongodb\mongodb-driver-core\3.12.0\mongodb-driver-core-3.12.0.jar C:\Users\sushanth\.m2\repository\org\mongodb\bson\3.12.0\bson-3.12.0.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 53411 -protocol json -d C:\Users\sushanth\eclipse-workspace\extentReports\test-output C:\Users\sushanth\AppData\Local\Temp\testng-eclipse-706092268\testng-customsuite.xml
+java -ea -classpath C:\Users\sushanth\Downloads\eclipse-java-oxygen-3a-win32-x86_64\eclipse\configuration\org.eclipse.osgi\514\0\.cp\lib\testng-remote.jar:C:\Program Files\Java\jre1.8.0_251\lib\resources.jar:C:\Program Files\Java\jre1.8.0_251\lib\rt.jar:C:\Program Files\Java\jre1.8.0_251\lib\jsse.jar:C:\Program Files\Java\jre1.8.0_251\lib\jce.jar:C:\Program Files\Java\jre1.8.0_251\lib\charsets.jar:C:\Program Files\Java\jre1.8.0_251\lib\jfr.jar:C:\Program Files\Java\jre1.8.0_251\lib\ext\access-bridge-64.jar:C:\Program Files\Java\jre1.8.0_251\lib\ext\cldrdata.jar:C:\Program Files\Java\jre1.8.0_251\lib\ext\dnsns.jar:C:\Program Files\Java\jre1.8.0_251\lib\ext\jaccess.jar:C:\Program Files\Java\jre1.8.0_251\lib\ext\jfxrt.jar:C:\Program Files\Java\jre1.8.0_251\lib\ext\localedata.jar:C:\Program Files\Java\jre1.8.0_251\lib\ext\nashorn.jar:C:\Program Files\Java\jre1.8.0_251\lib\ext\sunec.jar:C:\Program Files\Java\jre1.8.0_251\lib\ext\sunjce_provider.jar:C:\Program Files\Java\jre1.8.0_251\lib\ext\sunmscapi.jar:C:\Program Files\Java\jre1.8.0_251\lib\ext\sunpkcs11.jar:C:\Program Files\Java\jre1.8.0_251\lib\ext\zipfs.jar:C:\Users\sushanth\eclipse-workspace\extentReports\target\test-classes:C:\Users\sushanth\eclipse-workspace\extentReports\target\classes:C:\Users\sushanth\.m2\repository\org\testng\testng\6.14.3\testng-6.14.3.jar:C:\Users\sushanth\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar:C:\Users\sushanth\.m2\repository\org\apache-extras\beanshell\bsh\2.0b6\bsh-2.0b6.jar:C:\Users\sushanth\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar:C:\Users\sushanth\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar:C:\Users\sushanth\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar:C:\Users\sushanth\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar:C:\Users\sushanth\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar:C:\Users\sushanth\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar:C:\Users\sushanth\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar:C:\Users\sushanth\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar:C:\Users\sushanth\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar:C:\Users\sushanth\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar:C:\Users\sushanth\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar:C:\Users\sushanth\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar:C:\Users\sushanth\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar:C:\Users\sushanth\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar:C:\Users\sushanth\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar:C:\Users\sushanth\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar:C:\Users\sushanth\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar:C:\Users\sushanth\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar:C:\Users\sushanth\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar:C:\Users\sushanth\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar:C:\Users\sushanth\.m2\repository\com\aventstack\extentreports\4.1.5\extentreports-4.1.5.jar:C:\Users\sushanth\.m2\repository\org\freemarker\freemarker\2.3.29\freemarker-2.3.29.jar:C:\Users\sushanth\.m2\repository\org\apache\httpcomponents\httpclient\4.5.2\httpclient-4.5.2.jar:C:\Users\sushanth\.m2\repository\org\apache\httpcomponents\httpcore\4.4.4\httpcore-4.4.4.jar:C:\Users\sushanth\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar:C:\Users\sushanth\.m2\repository\commons-codec\commons-codec\1.9\commons-codec-1.9.jar:C:\Users\sushanth\.m2\repository\org\apache\httpcomponents\httpmime\4.5.2\httpmime-4.5.2.jar:C:\Users\sushanth\.m2\repository\com\google\code\gson\gson\2.8.6\gson-2.8.6.jar:C:\Users\sushanth\.m2\repository\org\mongodb\mongodb-driver\3.12.0\mongodb-driver-3.12.0.jar:C:\Users\sushanth\.m2\repository\org\mongodb\mongodb-driver-core\3.12.0\mongodb-driver-core-3.12.0.jar:C:\Users\sushanth\.m2\repository\org\mongodb\bson\3.12.0\bson-3.12.0.jar org.testng.remote.RemoteTestNG -serport 53411 -protocol json -d C:\Users\sushanth\eclipse-workspace\extentReports\test-output C:\Users\sushanth\AppData\Local\Temp\testng-eclipse-706092268\testng-customsuite.xml
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2020-05-24 01:02:52.910
+!MESSAGE Launch configuration Triangle references non-existing project Myself.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Launch configuration Triangle references non-existing project Myself.
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1705)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1580)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:53)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:38)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:226)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:207)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setDirty(LaunchConfigurationWorkingCopy.java:552)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setAttribute(LaunchConfigurationWorkingCopy.java:425)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:309)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:335)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:70)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:783)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:930)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:98)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1355)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:81)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+!SUBENTRY 1 org.eclipse.jdt.launching 4 107 2020-05-24 01:02:52.963
+!MESSAGE Launch configuration Triangle references non-existing project Myself.
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2020-05-24 01:02:53.160
+!MESSAGE Launch configuration Triangle references non-existing project Myself.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Launch configuration Triangle references non-existing project Myself.
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1705)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1580)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:53)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:38)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:226)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:207)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setDirty(LaunchConfigurationWorkingCopy.java:552)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setAttribute(LaunchConfigurationWorkingCopy.java:425)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:310)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:335)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:70)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:783)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:930)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:98)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1355)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:81)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+!SUBENTRY 1 org.eclipse.jdt.launching 4 107 2020-05-24 01:02:53.160
+!MESSAGE Launch configuration Triangle references non-existing project Myself.
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2020-05-24 01:02:53.172
+!MESSAGE Launch configuration Triangle references non-existing project Myself.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Launch configuration Triangle references non-existing project Myself.
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1705)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1580)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:53)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:38)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:226)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:207)
+	at org.eclipse.debug.internal.core.LaunchManager.launchConfigurationChanged(LaunchManager.java:2166)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.writeNewFile(LaunchConfigurationWorkingCopy.java:384)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave0(LaunchConfigurationWorkingCopy.java:250)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave(LaunchConfigurationWorkingCopy.java:220)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave(LaunchConfigurationWorkingCopy.java:173)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:311)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:335)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:70)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:783)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:930)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:98)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1355)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:81)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+!SUBENTRY 1 org.eclipse.jdt.launching 4 107 2020-05-24 01:02:53.172
+!MESSAGE Launch configuration Triangle references non-existing project Myself.
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2020-05-24 01:02:53.175
+!MESSAGE Launch configuration cube references non-existing project Myself.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Launch configuration cube references non-existing project Myself.
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1705)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1580)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:53)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:38)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:226)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:207)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setDirty(LaunchConfigurationWorkingCopy.java:552)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setAttribute(LaunchConfigurationWorkingCopy.java:425)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:309)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:335)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:70)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:783)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:930)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:98)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1355)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:81)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+!SUBENTRY 1 org.eclipse.jdt.launching 4 107 2020-05-24 01:02:53.176
+!MESSAGE Launch configuration cube references non-existing project Myself.
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2020-05-24 01:02:53.178
+!MESSAGE Launch configuration cube references non-existing project Myself.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Launch configuration cube references non-existing project Myself.
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1705)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1580)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:53)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:38)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:226)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:207)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setDirty(LaunchConfigurationWorkingCopy.java:552)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setAttribute(LaunchConfigurationWorkingCopy.java:425)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:310)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:335)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:70)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:783)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:930)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:98)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1355)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:81)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+!SUBENTRY 1 org.eclipse.jdt.launching 4 107 2020-05-24 01:02:53.178
+!MESSAGE Launch configuration cube references non-existing project Myself.
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2020-05-24 01:02:53.207
+!MESSAGE Launch configuration cube references non-existing project Myself.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Launch configuration cube references non-existing project Myself.
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1705)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1580)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:53)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:38)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:226)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:207)
+	at org.eclipse.debug.internal.core.LaunchManager.launchConfigurationChanged(LaunchManager.java:2166)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.writeNewFile(LaunchConfigurationWorkingCopy.java:384)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave0(LaunchConfigurationWorkingCopy.java:250)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave(LaunchConfigurationWorkingCopy.java:220)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave(LaunchConfigurationWorkingCopy.java:173)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:311)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:335)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:70)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:783)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:930)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:98)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1355)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:81)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+!SUBENTRY 1 org.eclipse.jdt.launching 4 107 2020-05-24 01:02:53.207
+!MESSAGE Launch configuration cube references non-existing project Myself.
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2020-05-24 01:02:53.217
+!MESSAGE Launch configuration Triangle, ... references non-existing project Myself.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Launch configuration Triangle, ... references non-existing project Myself.
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1705)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1580)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:53)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:38)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:226)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:207)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setDirty(LaunchConfigurationWorkingCopy.java:552)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setAttribute(LaunchConfigurationWorkingCopy.java:425)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:309)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:335)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:70)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:783)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:930)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:98)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1355)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:81)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+!SUBENTRY 1 org.eclipse.jdt.launching 4 107 2020-05-24 01:02:53.217
+!MESSAGE Launch configuration Triangle, ... references non-existing project Myself.
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2020-05-24 01:02:53.219
+!MESSAGE Launch configuration Triangle, ... references non-existing project Myself.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Launch configuration Triangle, ... references non-existing project Myself.
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1705)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1580)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:53)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:38)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:226)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:207)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setDirty(LaunchConfigurationWorkingCopy.java:552)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setAttribute(LaunchConfigurationWorkingCopy.java:425)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:310)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:335)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:70)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:783)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:930)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:98)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1355)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:81)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+!SUBENTRY 1 org.eclipse.jdt.launching 4 107 2020-05-24 01:02:53.219
+!MESSAGE Launch configuration Triangle, ... references non-existing project Myself.
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2020-05-24 01:02:53.239
+!MESSAGE Launch configuration Triangle, ... references non-existing project Myself.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Launch configuration Triangle, ... references non-existing project Myself.
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1705)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1580)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:53)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:38)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:226)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:207)
+	at org.eclipse.debug.internal.core.LaunchManager.launchConfigurationChanged(LaunchManager.java:2166)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.writeNewFile(LaunchConfigurationWorkingCopy.java:384)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave0(LaunchConfigurationWorkingCopy.java:250)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave(LaunchConfigurationWorkingCopy.java:220)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave(LaunchConfigurationWorkingCopy.java:173)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:311)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:335)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:70)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:783)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:930)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:98)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1355)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:81)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+!SUBENTRY 1 org.eclipse.jdt.launching 4 107 2020-05-24 01:02:53.239
+!MESSAGE Launch configuration Triangle, ... references non-existing project Myself.
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2020-05-24 01:02:53.241
+!MESSAGE Launch configuration execution references non-existing project Myself.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Launch configuration execution references non-existing project Myself.
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1705)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1580)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:53)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:38)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:226)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:207)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setDirty(LaunchConfigurationWorkingCopy.java:552)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setAttribute(LaunchConfigurationWorkingCopy.java:425)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:309)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:335)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:70)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:783)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:930)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:98)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1355)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:81)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+!SUBENTRY 1 org.eclipse.jdt.launching 4 107 2020-05-24 01:02:53.241
+!MESSAGE Launch configuration execution references non-existing project Myself.
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2020-05-24 01:02:53.242
+!MESSAGE Launch configuration execution references non-existing project Myself.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Launch configuration execution references non-existing project Myself.
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1705)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1580)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:53)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:38)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:226)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:207)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setDirty(LaunchConfigurationWorkingCopy.java:552)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setAttribute(LaunchConfigurationWorkingCopy.java:425)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:310)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:335)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:70)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:783)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:930)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:98)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1355)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:81)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+!SUBENTRY 1 org.eclipse.jdt.launching 4 107 2020-05-24 01:02:53.242
+!MESSAGE Launch configuration execution references non-existing project Myself.
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2020-05-24 01:02:53.261
+!MESSAGE Launch configuration execution references non-existing project Myself.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Launch configuration execution references non-existing project Myself.
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1705)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1580)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:53)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:38)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:226)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:207)
+	at org.eclipse.debug.internal.core.LaunchManager.launchConfigurationChanged(LaunchManager.java:2166)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.writeNewFile(LaunchConfigurationWorkingCopy.java:384)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave0(LaunchConfigurationWorkingCopy.java:250)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave(LaunchConfigurationWorkingCopy.java:220)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave(LaunchConfigurationWorkingCopy.java:173)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:311)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:335)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:70)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:783)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:930)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:98)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1355)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:81)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+!SUBENTRY 1 org.eclipse.jdt.launching 4 107 2020-05-24 01:02:53.262
+!MESSAGE Launch configuration execution references non-existing project Myself.
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2020-05-24 01:02:53.263
+!MESSAGE Launch configuration Myself_testng.xml references non-existing project Myself.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Launch configuration Myself_testng.xml references non-existing project Myself.
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1705)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1580)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:53)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:38)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:226)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:207)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setDirty(LaunchConfigurationWorkingCopy.java:552)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setAttribute(LaunchConfigurationWorkingCopy.java:425)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:309)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:335)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:70)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:783)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:930)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:98)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1355)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:81)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+!SUBENTRY 1 org.eclipse.jdt.launching 4 107 2020-05-24 01:02:53.264
+!MESSAGE Launch configuration Myself_testng.xml references non-existing project Myself.
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2020-05-24 01:02:53.266
+!MESSAGE Launch configuration Myself_testng.xml references non-existing project Myself.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Launch configuration Myself_testng.xml references non-existing project Myself.
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1705)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1580)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:53)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:38)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:226)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:207)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setDirty(LaunchConfigurationWorkingCopy.java:552)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setAttribute(LaunchConfigurationWorkingCopy.java:425)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:310)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:335)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:70)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:783)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:930)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:98)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1355)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:81)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+!SUBENTRY 1 org.eclipse.jdt.launching 4 107 2020-05-24 01:02:53.391
+!MESSAGE Launch configuration Myself_testng.xml references non-existing project Myself.
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2020-05-24 01:02:53.403
+!MESSAGE Launch configuration Myself_testng.xml references non-existing project Myself.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Launch configuration Myself_testng.xml references non-existing project Myself.
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1705)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1580)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:53)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:38)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:226)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:207)
+	at org.eclipse.debug.internal.core.LaunchManager.launchConfigurationChanged(LaunchManager.java:2166)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.writeNewFile(LaunchConfigurationWorkingCopy.java:384)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave0(LaunchConfigurationWorkingCopy.java:250)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave(LaunchConfigurationWorkingCopy.java:220)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave(LaunchConfigurationWorkingCopy.java:173)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:311)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:335)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:70)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:783)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:930)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:98)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob$1.call(ProjectRegistryRefreshJob.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1355)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:81)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+!SUBENTRY 1 org.eclipse.jdt.launching 4 107 2020-05-24 01:02:53.404
+!MESSAGE Launch configuration Myself_testng.xml references non-existing project Myself.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-05-24 01:03:59.236
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-05-24 01:03:59.751
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-05-24 01:08:40.703
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-05-24 01:08:42.228
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-05-24 01:18:41.409
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-05-24 01:18:41.483
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.recommenders.subwords.rcp 4 1 2020-05-24 01:20:02.016
+!MESSAGE Exception during code completion
+!STACK 0
+org.eclipse.core.runtime.OperationCanceledException
+	at org.eclipse.jdt.internal.codeassist.CompletionEngine.checkCancel(CompletionEngine.java:1896)
+	at org.eclipse.jdt.internal.codeassist.CompletionEngine.acceptType(CompletionEngine.java:1391)
+	at org.eclipse.jdt.internal.core.SearchableEnvironmentRequestor.acceptType(SearchableEnvironmentRequestor.java:119)
+	at org.eclipse.jdt.internal.core.NameLookup.seekTypesInBinaryPackage(NameLookup.java:1408)
+	at org.eclipse.jdt.internal.core.NameLookup.seekTypes(NameLookup.java:1341)
+	at org.eclipse.jdt.internal.core.NameLookup.seekTypes(NameLookup.java:1256)
+	at org.eclipse.jdt.internal.core.NameLookup.findAllTypes(NameLookup.java:407)
+	at org.eclipse.jdt.internal.core.NameLookup.seekTypes(NameLookup.java:1317)
+	at org.eclipse.jdt.internal.core.NameLookup.seekTypes(NameLookup.java:1256)
+	at org.eclipse.jdt.internal.core.SearchableEnvironment.findTypes(SearchableEnvironment.java:816)
+	at org.eclipse.jdt.internal.core.SearchableEnvironment.findTypes(SearchableEnvironment.java:612)
+	at org.eclipse.jdt.internal.codeassist.CompletionEngine.findTypesAndPackages(CompletionEngine.java:11196)
+	at org.eclipse.jdt.internal.codeassist.CompletionEngine.completionOnSingleNameReference(CompletionEngine.java:3725)
+	at org.eclipse.jdt.internal.codeassist.CompletionEngine.complete(CompletionEngine.java:1926)
+	at org.eclipse.jdt.internal.codeassist.CompletionEngine.complete(CompletionEngine.java:2251)
+	at org.eclipse.jdt.internal.core.Openable.codeComplete(Openable.java:131)
+	at org.eclipse.jdt.internal.core.CompilationUnit.codeComplete(CompilationUnit.java:358)
+	at org.eclipse.jdt.internal.core.CompilationUnit.codeComplete(CompilationUnit.java:346)
+	at org.eclipse.recommenders.internal.subwords.rcp.SubwordsSessionProcessor.computeProposals(SubwordsSessionProcessor.java:341)
+	at org.eclipse.recommenders.internal.subwords.rcp.SubwordsSessionProcessor.getNewProposals(SubwordsSessionProcessor.java:228)
+	at org.eclipse.recommenders.internal.subwords.rcp.SubwordsSessionProcessor.initializeContext(SubwordsSessionProcessor.java:168)
+	at org.eclipse.recommenders.completion.rcp.processable.IntelligentCompletionProposalComputer.fireInitializeContext(IntelligentCompletionProposalComputer.java:293)
+	at org.eclipse.recommenders.completion.rcp.processable.IntelligentCompletionProposalComputer.computeCompletionProposals(IntelligentCompletionProposalComputer.java:170)
+	at org.eclipse.jdt.internal.ui.text.java.CompletionProposalComputerDescriptor.computeCompletionProposals(CompletionProposalComputerDescriptor.java:333)
+	at org.eclipse.jdt.internal.ui.text.java.CompletionProposalCategory.computeCompletionProposals(CompletionProposalCategory.java:337)
+	at org.eclipse.jdt.internal.ui.text.java.ContentAssistProcessor.collectProposals(ContentAssistProcessor.java:331)
+	at org.eclipse.jdt.internal.ui.text.java.ContentAssistProcessor.computeCompletionProposals(ContentAssistProcessor.java:288)
+	at org.eclipse.jface.text.contentassist.ContentAssistant$3.run(ContentAssistant.java:2007)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.jface.text.contentassist.ContentAssistant.computeCompletionProposals(ContentAssistant.java:2004)
+	at org.eclipse.jface.text.contentassist.CompletionProposalPopup.computeProposals(CompletionProposalPopup.java:560)
+	at org.eclipse.jface.text.contentassist.CompletionProposalPopup.access$7(CompletionProposalPopup.java:555)
+	at org.eclipse.jface.text.contentassist.CompletionProposalPopup$2.run(CompletionProposalPopup.java:489)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:70)
+	at org.eclipse.jface.text.contentassist.CompletionProposalPopup.showProposals(CompletionProposalPopup.java:482)
+	at org.eclipse.jface.text.contentassist.ContentAssistant.showPossibleCompletions(ContentAssistant.java:1823)
+	at org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitEditor$AdaptedSourceViewer.doOperation(CompilationUnitEditor.java:184)
+	at org.eclipse.ui.texteditor.ContentAssistAction$1.run(ContentAssistAction.java:84)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:70)
+	at org.eclipse.ui.texteditor.ContentAssistAction.run(ContentAssistAction.java:81)
+	at org.eclipse.jface.action.Action.runWithEvent(Action.java:473)
+	at org.eclipse.jface.commands.ActionHandler.execute(ActionHandler.java:118)
+	at org.eclipse.ui.internal.handlers.E4HandlerProxy.execute(E4HandlerProxy.java:92)
+	at sun.reflect.GeneratedMethodAccessor72.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:55)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invokeUsingClass(InjectorImpl.java:305)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invoke(InjectorImpl.java:239)
+	at org.eclipse.e4.core.contexts.ContextInjectionFactory.invoke(ContextInjectionFactory.java:132)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceHandler.execute(HandlerServiceHandler.java:152)
+	at org.eclipse.core.commands.Command.executeWithChecks(Command.java:494)
+	at org.eclipse.core.commands.ParameterizedCommand.executeWithChecks(ParameterizedCommand.java:487)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceImpl.executeHandler(HandlerServiceImpl.java:210)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.executeCommand(KeyBindingDispatcher.java:287)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.press(KeyBindingDispatcher.java:527)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.processKeyEvent(KeyBindingDispatcher.java:577)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.filterKeySequenceBindings(KeyBindingDispatcher.java:385)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.access$0(KeyBindingDispatcher.java:331)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher$KeyDownFilter.handleEvent(KeyBindingDispatcher.java:88)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:86)
+	at org.eclipse.swt.widgets.Display.filterEvent(Display.java:1271)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1078)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1103)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1088)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1130)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1126)
+	at org.eclipse.swt.widgets.Widget.wmKeyDown(Widget.java:1849)
+	at org.eclipse.swt.widgets.Control.WM_KEYDOWN(Control.java:5216)
+	at org.eclipse.swt.widgets.Canvas.WM_KEYDOWN(Canvas.java:454)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4875)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:359)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5191)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessageW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(OS.java:2560)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3815)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1150)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1039)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:680)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:594)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:148)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:151)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:388)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:243)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1499)
+
+!ENTRY org.eclipse.jdt.ui 2 0 2020-05-24 01:20:02.162
+!MESSAGE The 'org.eclipse.recommenders.completion.rcp.javaCompletionProposalComputer.intelligent' proposal computer from the 'org.eclipse.recommenders.completion.rcp' plug-in did not complete normally. The extension took too long to return from the 'computeCompletionProposals()' operation.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-05-24 01:40:45.855
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-05-24 01:40:45.914
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-05-24 01:44:11.064
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-05-24 01:44:11.071
+!MESSAGE Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.ui 4 0 2020-05-24 01:47:56.421
+!MESSAGE Unhandled event loop exception
+!STACK 0
+org.eclipse.core.runtime.AssertionFailedException: assertion failed: 
+	at org.eclipse.core.runtime.Assert.isTrue(Assert.java:110)
+	at org.eclipse.core.runtime.Assert.isTrue(Assert.java:96)
+	at org.eclipse.ltk.core.refactoring.TextFileChange.releaseDocument(TextFileChange.java:235)
+	at org.eclipse.jdt.core.refactoring.CompilationUnitChange.releaseDocument(CompilationUnitChange.java:89)
+	at org.eclipse.ltk.core.refactoring.TextChange.perform(TextChange.java:247)
+	at org.eclipse.jdt.ui.text.java.correction.ChangeCorrectionProposal.performChange(ChangeCorrectionProposal.java:188)
+	at org.eclipse.jdt.internal.ui.text.correction.proposals.AddImportCorrectionProposal.performChange(AddImportCorrectionProposal.java:68)
+	at org.eclipse.jdt.ui.text.java.correction.CUCorrectionProposal.apply(CUCorrectionProposal.java:181)
+	at org.eclipse.jface.text.contentassist.CompletionProposalPopup.insertProposal(CompletionProposalPopup.java:987)
+	at org.eclipse.jface.text.contentassist.CompletionProposalPopup.insertSelectedProposalWithMask(CompletionProposalPopup.java:931)
+	at org.eclipse.jface.text.contentassist.CompletionProposalPopup.access$11(CompletionProposalPopup.java:927)
+	at org.eclipse.jface.text.contentassist.CompletionProposalPopup$5.widgetDefaultSelected(CompletionProposalPopup.java:672)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:120)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:86)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4428)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1079)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4238)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3817)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1150)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1039)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:680)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:594)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:148)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:151)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:388)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:243)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1499)

@@ -1,0 +1,50 @@
+package selenium.project;
+
+import java.util.concurrent.TimeUnit;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.interactions.Actions;
+import org.testng.annotations.Test;
+
+public class calender {
+	WebDriver driver = null;
+	@Test
+	public void calenderTest()
+	{
+		System.setProperty("webdriver.chrome.driver",
+				"C:\\Users\\sushanth\\Desktop\\Sushanth\\chromedriver_win32\\chromedriver.exe");
+		driver = new ChromeDriver();
+		driver.get("https://my-schedule.timetrade.com/app/td-2771192/workflows/hxg4p/schedule/availability?wfsid=16a5bdb5-baba97f6-16a5be82-baba97f6-00000002-41nhg4j9gf4ldqbgfa75dcuh3r4mibor&view=full&fs=1");
+		Actions action = new Actions(driver);
+		driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
+		WebElement element = driver.findElement(By.xpath("//*[@id=\"tz\"]"));
+		action.moveToElement(element).build().perform();
+		action.moveToElement(element).click().build().perform();
+		
+	
+		driver.manage().timeouts().implicitlyWait(2, TimeUnit.SECONDS);
+		driver.findElement(By.xpath("//*[@id=\"tz\"]/option[7]")).click();
+		driver.manage().timeouts().implicitlyWait(3, TimeUnit.SECONDS);
+		
+		WebElement date = driver.findElement(By.cssSelector("#tt_form_ChoiceSelect_22"));
+		action.moveToElement(date).build().perform();
+		driver.manage().timeouts().implicitlyWait(3, TimeUnit.SECONDS);
+		action.moveToElement(date).click().build().perform();
+		driver.manage().timeouts().implicitlyWait(3, TimeUnit.SECONDS);
+		
+		WebElement zone = driver.findElement(By.xpath("//*[@id=\"tt_form_ChoiceSelect_22\"]/option[3]"));
+		action.moveToElement(zone).build().perform();
+		driver.manage().timeouts().implicitlyWait(3, TimeUnit.SECONDS);
+		action.moveToElement(zone).click().build().perform();
+		
+		
+		
+		
+		
+		
+	}
+
+}

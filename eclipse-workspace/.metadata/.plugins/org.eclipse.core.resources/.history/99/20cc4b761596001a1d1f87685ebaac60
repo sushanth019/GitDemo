@@ -1,0 +1,21 @@
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.WebDriver;
+
+public class testFb {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		//Accessing the website
+		System.setProperty("webdriver.driver.chrome", "C:\\Users\\sushanth\\Desktop\\Sushanth\\chromedriver_win32\\chromedriver.exe");
+		WebDriver driverEement = new ChromeDriver();
+		driverEement.get("https:\\www.facebook.com");
+		
+		//Test Text box
+		//Test radio Buttons
+		//Test Checkboxes
+		//Test Buttons
+
+	}
+
+}

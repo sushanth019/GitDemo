@@ -1,0 +1,16 @@
+package Selenium.basics;
+
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class seleniumTest {
+	public static void main(String [] args)
+	{
+		System.setProperty("webdriver.chrome.driver", "C:\\Users\\sushanth\\Desktop\\Sushanth\\chromedriver_win32\\chromedriver.exe");
+		ChromeDriver webDriver = new ChromeDriver();
+		
+		webDriver.get("www.google.com");
+		
+		
+	}
+
+}

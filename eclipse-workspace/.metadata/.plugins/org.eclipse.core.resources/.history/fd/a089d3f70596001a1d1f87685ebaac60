@@ -1,0 +1,74 @@
+import java.util.List;
+import java.util.concurrent.TimeUnit;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.ui.Select;
+
+
+
+
+
+/**
+ * 
+ */
+
+/**
+ * @author sushanth
+ *
+ */
+public class RegisterAccountTest {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		String url = "https://smartbytes.v-logics.com/ocart/index.php?route=account/register";
+		// TODO Auto-generated method stub
+
+		// Open the Website
+		System.setProperty("webdriver.chrome.driver",
+				"C:\\Users\\sushanth\\Desktop\\Sushanth\\chromedriver_win32\\chromedriver.exe");
+		WebDriver driver = new ChromeDriver();
+		driver.get(url);
+
+		// Test the fields in the register my account details by providing the the texts
+		driver.findElement(By.name("firstname")).sendKeys("Sushanth");
+		driver.findElement(By.name("lastname")).sendKeys("Bichkunda");
+		driver.findElement(By.name("email")).sendKeys("sushanth019@gmail.com");
+		driver.findElement(By.name("telephone")).sendKeys("2262197100");
+		
+		//Now testing the the drop down and selecting from it
+		WebElement countryName = driver.findElement(By.name("country_id"));
+		Select element = new Select(countryName);
+		element.selectByValue("99");
+		
+		//Setting a delay of 5 seconds
+		driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
+		
+		WebElement region = driver.findElement(By.name("zone_id"));
+		Select regionId = new Select(region);
+		regionId.selectByValue("1483");
+		
+		//radio Button
+		List<WebElement> subscribe =  driver.findElements(By.name("newsletter"));
+		subscribe.get(1).click();
+		
+		/*try {
+			Thread.sleep(5000);
+		}catch(Exception e) {
+			
+		}
+		subscribe.get(1).click();*/
+		
+		//checkboxes
+		
+		driver.findElement(By.name("agree")).click();
+		
+		
+
+	}
+
+}
